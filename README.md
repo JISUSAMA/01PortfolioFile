@@ -1,2 +1,2 @@
-# Bojamaja_Brain
-gateways 프로젝트
+# gateways 프로젝트
+
