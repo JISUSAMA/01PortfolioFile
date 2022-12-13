@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class BrainGame2_DataManager : MonoBehaviour
 {
-    public Touch_TimerManager TimerManager_sc;
+
     public BrainGame2_UIManager UIManager;
 
     public List<string> problem_list;
     public List<string> QuestionValue_list;
-
+  
     public int Problem_number; //문제 번호 
     public int Question_number; //문제 번호 
 
@@ -58,7 +58,8 @@ public class BrainGame2_DataManager : MonoBehaviour
         //문제 번호 고르기
         GetMenuList(); //메뉴 리스트
         UIManager.SetTextDataText();
-        TimerManager_sc.FindWord_sec_Timer(25,10,2);
+        // TimerManager_sc.FindWord_sec_Timer(25,10,2);
+        SetUIGrup.instance.TimeToScore(20);
         //게임끝
         yield return null;
     }

@@ -92,31 +92,7 @@ public class BreakTimeUIManager : MonoBehaviour
                     Fail_StempAni_ob.SetActive(true);
                 }
                 break;
-            case "Real":
-               
-                timeRotateImg.sprite = timeRotateSp[2];
-                if (state.Equals("true"))
-                {
-                    Back_panel[2].SetActive(true);
-                    // StatePanel_img.sprite = StatePanel_sp[2]; //파랑 배경
-                    MarkImg.sprite = MarkSprite_clear[2];//brain성공
-                    GameTitle.text
-                        = GameAppManager.instance.LeapName[GameAppManager.instance.LeapMotion_PlayNumList[GameAppManager.instance.CurrentQusetionNumber - 1]].ToString();
-                    ClearTimeText.text = GameAppManager.instance.GamePlayScore[GameAppManager.instance.CurrentQusetionNumber - 1].ToString() + "점";
-                 //   Clear_particle.SetActive(true);
-       
-                }
-                else if (state.Equals("false"))
-                {
-                    //StatePanel_img.sprite = StatePanel_sp[3]; //노란 배경
-                    MarkImg.sprite = MarkSprite_fail[2];//brain실패
-                    GameTitle.text
-                          = GameAppManager.instance.LeapName[GameAppManager.instance.LeapMotion_PlayNumList[GameAppManager.instance.CurrentQusetionNumber - 1]].ToString();
-                    ClearTimeText.text = "다음기회에..";
-                    Fail_StempAni_ob.SetActive(true);
-                }
-                break;
-
+         
         }
         Waiting_SecTime();
     }

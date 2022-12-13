@@ -28,7 +28,7 @@ public class BrainGame5_UIManager : MonoBehaviour
           
             if (CurrnetOrderNum > 23)
             {
-                BrainGame5_DataManager.instance.TimerManager_sc.Question_Success();
+                SetUIGrup.instance.Question_Success();
             }
         }
         //틀림

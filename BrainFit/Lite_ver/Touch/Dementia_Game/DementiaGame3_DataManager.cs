@@ -5,7 +5,7 @@ using System;
 
 public class DementiaGame3_DataManager : MonoBehaviour
 {
-    public Touch_TimerManager TimerManager_sc; 
+
     public DementiaGame3_UIManager UIManager;
 
     public List<Dictionary<string,string>> object_Data;
@@ -47,7 +47,8 @@ public class DementiaGame3_DataManager : MonoBehaviour
     IEnumerator _DementiaGame3_Play()
     {
         Set_ObjectDataList();
-        TimerManager_sc.FindWord_sec_Timer(20, 10, 5);      
+        //TimerManager_sc.FindWord_sec_Timer(20, 10, 5);
+        SetUIGrup.instance.TimeToScore(25);
         yield return null;
     }
 

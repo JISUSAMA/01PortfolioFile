@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class DementiaGame7_UIManager : MonoBehaviour
 {
-    public Touch_TimerManager TimerManager_sc;
+  
     [Header("UI")]
     public Image[] Question_Kinds;
     public GameObject[] Maze1_Trigger;
@@ -62,12 +62,17 @@ public class DementiaGame7_UIManager : MonoBehaviour
             {
                 if (Temp_finger.Equals(5))
                 {
-                    TimerManager_sc.Question_Success();
+                    SetUIGrup.instance.Question_Success();
                     fingerPositions.Clear();
                 }
                 else
                 {
-                    TimerManager_sc.Question_Fail();
+                    //SetUIGrup.instance.Question_Fail();
+                    SceneSoundCtrl.Instance.GameFailSound();
+                    for(int i =0; i<triggerCount.Length; i++)
+                    {
+                        triggerCount[i] = false;
+                    }
                     fingerPositions.Clear();
                 }
                 Destroy(currentLine.gameObject);

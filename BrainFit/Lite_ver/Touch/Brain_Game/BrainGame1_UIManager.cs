@@ -34,7 +34,7 @@ public class BrainGame1_UIManager : MonoBehaviour
                 // Debug.Log("FindWord_text :" + FindWord_text.text + "QuestionWord_text :" + QuestionWord_text.text.Substring(0, Click_num + 1));
                 if (QuestionWord_text.text.Equals(FindWord_text.text))
                 {
-                   BrainGame1_DataManager.instance.TimerManager_sc.Question_Success();
+                    SetUIGrup.instance.Question_Success();
                 }
             }
             else

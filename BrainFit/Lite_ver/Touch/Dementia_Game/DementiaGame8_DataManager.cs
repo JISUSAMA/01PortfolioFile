@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DementiaGame8_DataManager : MonoBehaviour
 {
-    public Touch_TimerManager TimeManager_sc;
+    
     public DementiaGame8_UIManager UIManager;
     public string Q1_str, Q2_str, Q3_str, Q4_str;
     [SerializeField] List<Dictionary<string, string>> data;
@@ -36,13 +36,13 @@ public class DementiaGame8_DataManager : MonoBehaviour
     {
         int rand = Random.Range(0, data.Count);
         Set_Question_Data(rand);
-        TimeManager_sc.FindWord_sec_Timer(18, 10, 3);
+        // TimeManager_sc.FindWord_sec_Timer(18, 10, 3);
+        SetUIGrup.instance.TimeToScore(30);
         yield return null;
     }
 
     public void Set_Question_Data(int num)
     {
-
         Q1_str = data[num]["Q1"];
         Q2_str = data[num]["Q2"];
         Q3_str = data[num]["Q3"];

@@ -9,7 +9,6 @@ public class BrainGame5_DataManager : MonoBehaviour
     public List<string> Order_Input_word; //입력받은 단어\
     public List<string> PieceStringList;
 
-    public Touch_TimerManager TimerManager_sc;
     public BrainGame5_UIManager UIManager;
     public string[] OrderHead;
 
@@ -60,7 +59,8 @@ public class BrainGame5_DataManager : MonoBehaviour
     {
         Initialization();
         Choose_Question_Word();
-        TimerManager_sc.FindWord_sec_Timer(35,15,5);
+        //TimerManager_sc.FindWord_sec_Timer(35,15,5);
+        SetUIGrup.instance.TimeToScore(65);
         //게임끝
         yield return null;
     }

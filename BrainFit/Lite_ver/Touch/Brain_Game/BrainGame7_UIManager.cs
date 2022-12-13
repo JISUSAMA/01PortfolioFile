@@ -69,11 +69,12 @@ public class BrainGame7_UIManager : MonoBehaviour
             && BrainGame7_DataManager.instance.Question_answer[3].Equals(Q4_i) 
             && BrainGame7_DataManager.instance.Question_answer[4].Equals(Q5_i)) 
         {
-            BrainGame7_DataManager.instance.TimerManager_sc.Question_Success();
+            SetUIGrup.instance.Question_Success();
         }
         else
         {
-            BrainGame7_DataManager.instance.TimerManager_sc.Question_Fail();
+            SceneSoundCtrl.Instance.GameFailSound();
+          //  SetUIGrup.instance.Question_Fail();
         }
     }
 }

@@ -58,13 +58,13 @@ public class BrainGame8_UIManager : MonoBehaviour
                    && Q_answer_InF[2].text.Equals(Q_answer[2]) 
                    && Q_answer_InF[3].text.Equals(Q_answer[3]))
                 {
-                    BrainGame8_DataManager.instance.TimerManager_sc.Question_Success();
+                    SetUIGrup.instance.Question_Success();
                     Debug.Log("clear");
                 }
                 else
                 {
-                    BrainGame8_DataManager.instance.TimerManager_sc.Question_Fail();
-               
+                    //SetUIGrup.instance.Question_Fail();
+                    SceneSoundCtrl.Instance.GameFailSound();
                     Debug.Log("fail");
                 }
             }

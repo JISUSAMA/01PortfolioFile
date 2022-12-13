@@ -27,28 +27,26 @@ public class GameAppManager : MonoBehaviour
     public int Brain_QusetionCount = 7; //전체 문제 종류
     public int Dementia_QusetionCount = 8; //전체 문제 종류
 
-    [Header("Leap Motion")]
-    public List<string> LeapMotion_PlayList;
-    public List<int> LeapMotion_PlayNumList;
 
     [Header("Global")]
     public string GameKind; //현재 플레이 중인 게임의 종류 "Brain" " "Dementia" "Leap" "Kenect"
     public int CurrentQusetionNumber = 0; //문제 번호
     public int CurrentGameScore = 0; //플레이 중인 게임의 총점
     public bool playBool = false;
-
+    [Space( 15f)]
     public SetUIGrup setUI;
+    public List<string> GamePlayMedal;
     public List<float> GamePlayTime; //게임 플레이 타임 
     public List<int> GamePlayScore; //게임 플레이 점수 
-
+    [Space(15f)]
     public bool play_touchGame = false;
     public List<Dictionary<string, object>> Save_CSVData;
-
-    public string info_Name;
-    public string info_Birth;
-    public string info_PlayDate;
-    public string info_GameKind;
-    public string info_Score;
+    //[Space(15f)]
+    //public string info_Name;
+    //public string info_Birth;
+    //public string info_PlayDate;
+    //public string info_GameKind;
+    //public string info_Score;
     public static GameAppManager instance { get; private set; }
     private void Awake()
     {
@@ -64,11 +62,12 @@ public class GameAppManager : MonoBehaviour
 
         Brain_gameName = new string[] { "BrainGame1", "BrainGame2", "BrainGame4", "BrainGame5", "BrainGame6", "BrainGame7", "BrainGame8" };
         Dementia_gameName = new string[] { "DementiaGame1", "DementiaGame2", "DementiaGame3", "DementiaGame4", "DementiaGame5", "DementiaGame6", "DementiaGame7", "DementiaGame8" };
-   //     LeapMotion_SceneName = new string[] { "1_ROCK_PAPER_SCISSORS_WIN", "2_ROCK_PAPER_SCISSORS_LOSE", "3_ARITHMETIC_GAME_NUMBERS", "4_ARITHMETIC_GAME_HANDPICTURE", "5_BLUE_FLAG_AND_WHITE_FLAG" };
 
         BrainName = new string[] { "표를 보고 단어 찾아 터치하기", "음식값 계산하기", "양손으로 다른 그림 그리기", "숫자판 순서대로 터치하기", "단어 색깔 맞추기", "반전 틀린 글자 찾기", "거울 시계 시간 맞추기" };
         DementiaName = new string[] { "기억회상 낱말 찾기", "속담과 그림 연결하기", "사물과 글자 연결하기", "분수와 그림 연결하기", "숨은 그림 찾기", "틀린 그림 찾기", "미로 찾기", "연속 숫자 계산하기" };
-      //  LeapName = new string[] { "순서 가위바위보 (이기기)", "순서 가위바위보 (지기)", "손가락 셈 하기(숫자)", "손가락 셈 하기(손그림)", "청기 백기 맞추기" };
+        //튜토리얼 진행 여부
+        if (PlayerPrefs.HasKey("TutorialPlay")) { PlayerPrefs.GetString("TutorialPlay"); }
+        else { PlayerPrefs.SetString("TutorialPlay", "true"); }
     }
 
     private void Start()
@@ -124,8 +123,6 @@ public class GameAppManager : MonoBehaviour
         else
         {
             SceneManager.LoadScene("9.GameFinish");
-            //끝!
-            Finish_SaveGameData();
         }
     }
     public void Initialization()
@@ -139,79 +136,12 @@ public class GameAppManager : MonoBehaviour
         GamePlayTime.Clear();
         GamePlayScore.Clear();
         CurrentGameScore = 0;
-        //
-        LeapMotion_PlayList.Clear();
-        LeapMotion_PlayNumList.Clear();
+
     }
 
     public void LoadScene_Name(string name)
     {
         SceneManager.LoadScene(name);
     }
-    public void UserDataInit()
-    {
-        info_Name = PlayerPrefs.GetString("EP_UserNAME"); //플레이어 이름
-        info_Birth = PlayerPrefs.GetString("EP_UserBrithDay"); //플레이어 생일
 
-        Save_CSVData = CSVReader.Read_file("SaveDataList");
-
-        for (int i = 0; i < Save_CSVData.Count; i++)
-        {
-            //현재 사용하고있는 유저와 이름과 생일이 같은 데이터의 자료를 가져옴
-            if (Save_CSVData[i]["Name"].Equals(PlayerPrefs.GetString("EP_UserNAME"))
-                && Save_CSVData[i]["Birth"].Equals(PlayerPrefs.GetString("EP_UserNAME")))
-            {
-
-            }
-        }
-    }
-
-    public void Finish_SaveGameData()
-    {
-        info_Name = PlayerPrefs.GetString("EP_UserNAME"); //플레이어 이름
-        info_Birth = PlayerPrefs.GetString("EP_UserBrithDay"); //플레이어 생일
-
-        //오늘 날짜
-        DateTime today = DateTime.Now;
-        info_PlayDate = today.ToString("MM/dd/yyyy HH:mm");
-
-        info_GameKind = GameKind;  //게임 플레이 종류
-        info_Score = CurrentGameScore.ToString();
-
-        Set_SaveDataFile(info_Name, info_Birth, info_PlayDate, info_GameKind, info_Score);
-    }
-    public void Set_SaveDataFile(string name, string birth, string playdate, string gamekind, string total_score)
-    {
-        string path = Application.persistentDataPath + "/SaveDataList.csv";
-        Debug.Log(path);
-        // This text is added only once to the file.
-        if (!File.Exists(path))
-        {
-            // Create a file to write to.
-            using (StreamWriter sw = File.CreateText(path))
-            {
-                string n = "Name,Birth,PlayDate,GameKind,Score";
-                sw.WriteLine(n);
-            }
-        }
-        else
-        {
-            // This text is always added, making the file longer over time
-            // if it is not deleted.
-            using (StreamWriter sw = File.AppendText(path))
-            {
-                string n = info_Name + "," + info_Birth + "," + info_PlayDate + "," + info_GameKind + "," + info_Score;
-                sw.WriteLine(n);
-            }
-        }
-        // Open the file to read from.
-        using (StreamReader sr = File.OpenText(path))
-        {
-            string line = "";
-            while ((line = sr.ReadLine()) != null)
-            {
-                Debug.Log(line);
-            }
-        }
-    }
 }

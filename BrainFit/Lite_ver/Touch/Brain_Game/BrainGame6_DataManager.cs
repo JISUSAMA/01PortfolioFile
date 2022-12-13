@@ -5,7 +5,7 @@ using UnityEngine;
 public class BrainGame6_DataManager : MonoBehaviour
 {
     public BrainGame6_UIManager UIManager;
-    public Touch_TimerManager TimeManager_sc;
+
     //빨강,노랑,주황,초록,파랑,남색,보라, //회색, 검정, 갈색, 하늘색
     public List<string> Random_Color_Lsit;
     public List<string> Correct_Color_Lsit;
@@ -61,7 +61,8 @@ public class BrainGame6_DataManager : MonoBehaviour
     {
         Initialization();
         MakeRandomColors();
-        TimeManager_sc.FindWord_sec_Timer(25,10,5);
+        // TimeManager_sc.FindWord_sec_Timer(25,10,5);
+        SetUIGrup.instance.TimeToScore(30);
         while (UIManager.Find_Correct_i < 4)
         {
             if (!GameAppManager.instance.playBool) { break; }
@@ -69,7 +70,7 @@ public class BrainGame6_DataManager : MonoBehaviour
         }
         if (UIManager.Find_Correct_i == 4)
         {
-            TimeManager_sc.Question_Success();
+            SetUIGrup.instance.Question_Success();
         }
         //게임끝
         yield return null;

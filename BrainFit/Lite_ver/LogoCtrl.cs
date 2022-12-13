@@ -31,7 +31,7 @@ public class LogoCtrl : MonoBehaviour
     {
         AppSoundManager.Instance.PlaySFX("LogoSound1");
         yield return new WaitForSeconds(2f);
-        SceneManager.LoadScene("8.ChooseGame");
+        SceneManager.LoadScene("0.Main");
         yield return null;
     }
 }

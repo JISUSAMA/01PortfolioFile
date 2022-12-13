@@ -5,13 +5,13 @@ using UnityEngine;
 public class BrainGame1_DataManager : MonoBehaviour
 {
     [Header("BrainGame1-Find Word And Touch")]
-    public Touch_TimerManager TimerManager_sc;  
+
     public BrainGame1_UIManager UIManager; 
     [SerializeField] public string[] BrainGame1_Word_list = { "호랑이", "금붕어", "원숭이", "나무늘보", "이야기", "학교", "대나무", "플로토늄", "육교", "기린", "나무", "대학교", "나이", "교육", "무지개" };
     public List<string> BrainGame1_Piece_str_list;
     public List<string> QusetionPieceWord_list;
     int PieceBtnCount_int =25;
-
+    
     public static BrainGame1_DataManager instance { get; private set; }
     /// <summary>
     /// 5*5 표 안에 배열된 글자들 속에서 아래 예시에서 요구하는 단어를 순서대로 터치하여 완성하기
@@ -71,7 +71,8 @@ public class BrainGame1_DataManager : MonoBehaviour
         {
             UIManager.Piece_btn_text[i].text = BrainGame1_Piece_str_list[i];
         }
-        TimerManager_sc.FindWord_sec_Timer(15,10,5);
+        //TimerManager_sc.FindWord_sec_Timer(15,10,5);
+        SetUIGrup.instance.TimeToScore(30);
     }
    
 }

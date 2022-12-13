@@ -28,11 +28,11 @@ public class DementiaGame4_UIManager : MonoBehaviour
         if (DementiaGame4_DataManager.instance.QuestionNum[btnNum]
             .Equals(DementiaGame4_DataManager.instance.AnswerNumber))
         {
-            DementiaGame4_DataManager.instance.TimerManager_sc.Question_Success();
+            SetUIGrup.instance.Question_Success();
         }
         else
         {
-
+            SceneSoundCtrl.Instance.GameFailSound();
         }
     }
 }

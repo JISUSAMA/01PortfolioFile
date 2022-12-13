@@ -15,11 +15,11 @@ public class DementiaGame3_UIManager : MonoBehaviour
         //Á¤´ä ¸ÂÃã
         if (ObjectText[btnNum].text.Equals(DementiaGame3_DataManager.instance.QusetionStr))
         {
-            DementiaGame3_DataManager.instance.TimerManager_sc.Question_Success();
+            SetUIGrup.instance.Question_Success();
         }
         else
         {
-
+            SceneSoundCtrl.Instance.GameFailSound();
         }
     }
 }

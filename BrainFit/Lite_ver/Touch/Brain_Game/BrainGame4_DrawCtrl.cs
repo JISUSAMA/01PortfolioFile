@@ -38,28 +38,29 @@ public class BrainGame4_DrawCtrl : MonoBehaviour
         while (DrawLine_GameRun)
         {
             //터치좌표
-            Touch t = Input.GetTouch(index);
-
-            if (t.phase == TouchPhase.Began)
-            {
-                fingerPositions.Clear();
-                CreateLine();
-            }
-            else if (t.phase == TouchPhase.Moved)
-            {
-                Vector2 tempFingerPos = Camera.main.ScreenToWorldPoint(t.position);
-                transform.position = tempFingerPos;
-                if (Vector2.Distance(tempFingerPos, fingerPositions[fingerPositions.Count - 1]) > .1f)
-                {
-                    UpdateLine(tempFingerPos);
-                }
-            }
-            else if (t.phase == TouchPhase.Ended)
-            {
-                this.gameObject.GetComponent<LineRenderer>().positionCount = 0;
-                fingerPositions.Clear();
-                DrawLine_GameRun = false;
-            }
+             Touch t = Input.GetTouch(index);
+             
+             if (t.phase == TouchPhase.Began)
+             {
+                 fingerPositions.Clear();
+                 CreateLine();
+             }
+             else if (t.phase == TouchPhase.Moved)
+             {
+                 Vector2 tempFingerPos = Camera.main.ScreenToWorldPoint(t.position);
+                 transform.position = tempFingerPos;
+                 if (Vector2.Distance(tempFingerPos, fingerPositions[fingerPositions.Count - 1]) > .1f)
+                 {
+                     UpdateLine(tempFingerPos);
+                 }
+             }
+             else if (t.phase == TouchPhase.Ended)
+             {
+                 this.gameObject.GetComponent<LineRenderer>().positionCount = 0;
+                 fingerPositions.Clear();
+                 DrawLine_GameRun = false;
+             }
+            
             yield return null;
         }
     }

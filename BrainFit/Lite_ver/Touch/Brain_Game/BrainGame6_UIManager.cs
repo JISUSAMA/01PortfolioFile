@@ -30,6 +30,7 @@ public class BrainGame6_UIManager : MonoBehaviour
         }
         else
         {
+            SceneSoundCtrl.Instance.GameFailSound();
            // BrainGame6_DataManager.instance.TimeManager_sc.Question_Fail();
         }
     }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BrainGame8_DataManager : MonoBehaviour
 {
-    public Touch_TimerManager TimerManager_sc;
+
     public BrainGame8_UIManager UIManager;
     public bool playBool = false;
     public float AnswerTimer_f;
@@ -40,7 +40,8 @@ public class BrainGame8_DataManager : MonoBehaviour
     IEnumerator _BrainGame8_Play()
     {
         Set_Question_Data();
-        TimerManager_sc.FindWord_sec_Timer(15,10,5);
+        // TimerManager_sc.FindWord_sec_Timer(15,10,5);
+        SetUIGrup.instance.TimeToScore(25);
         yield return null;
     }
     public void Set_Question_Data()

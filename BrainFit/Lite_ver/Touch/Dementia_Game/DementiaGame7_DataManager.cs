@@ -5,8 +5,6 @@ using UnityEngine.UI;
 
 public class DementiaGame7_DataManager : MonoBehaviour
 {
-    public Touch_TimerManager TimerManager_sc;
-
     public static DementiaGame7_DataManager instance { get; private set; }
     private void Awake()
     {
@@ -34,7 +32,8 @@ public class DementiaGame7_DataManager : MonoBehaviour
     {
         int rand = Random.Range(0, DementiaGame7_UIManager.instance.Question_Kinds.Length);
         DementiaGame7_UIManager.instance.Question_Kinds[rand].gameObject.SetActive(true);//게임 판넬 활성화 
-        TimerManager_sc.FindWord_sec_Timer(35, 20, 8);
+        //TimerManager_sc.FindWord_sec_Timer(35, 20, 8);
+        SetUIGrup.instance.TimeToScore(45);
         yield return null;
     }
 

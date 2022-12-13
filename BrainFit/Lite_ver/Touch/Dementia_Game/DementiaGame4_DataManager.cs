@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DementiaGame4_DataManager : MonoBehaviour
 {
-    public Touch_TimerManager TimerManager_sc;
+
     public DementiaGame4_UIManager UIManager;
 
     public int AnswerQuestionCount = 0;
@@ -42,7 +42,8 @@ public class DementiaGame4_DataManager : MonoBehaviour
     IEnumerator _DementiaGame4_play()
     {
         Set_Kind_Data();
-        TimerManager_sc.FindWord_sec_Timer(20, 10, 5);
+        // TimerManager_sc.FindWord_sec_Timer(20, 10, 5);
+        SetUIGrup.instance.TimeToScore(25);
         yield return null;
     }
 

@@ -29,11 +29,13 @@ public class ChooseGame_UIManager : MonoBehaviour
                 GameAppManager.instance.QuestionStringList.Add(GameAppManager.instance.Brain_gameName[rand_input]);
             }
         }
+        AppSoundManager.Instance.PlayBGM("MainBGM");
         GameAppManager.instance.GameLoadScene();
     }
     //치매 예방 게임 버튼 클릭
     public void OnClick_Dementia()
     {
+       
         GameAppManager.instance.Initialization();
         GameAppManager.instance.GameKind = "Dementia";
         while (GameAppManager.instance.QuestionStringList.Count < GameAppManager.instance.Dementia_QusetionCount)
@@ -53,6 +55,7 @@ public class ChooseGame_UIManager : MonoBehaviour
                 GameAppManager.instance.QuestionStringList.Add(GameAppManager.instance.Dementia_gameName[rand_input]);
             }
         }
+        AppSoundManager.Instance.PlayBGM("MainBGM");
         GameAppManager.instance.GameLoadScene();
     }
     //치매 예방 체조 버튼 클릭
@@ -82,5 +85,11 @@ public class ChooseGame_UIManager : MonoBehaviour
     public void SystemCloseBtnClickOn()
     {
         Application.Quit();
+    }
+
+    public void OnClick_RestVideo(string url) 
+    {
+       AppSoundManager.Instance.StopBGM();
+        Application.OpenURL(url); 
     }
 }

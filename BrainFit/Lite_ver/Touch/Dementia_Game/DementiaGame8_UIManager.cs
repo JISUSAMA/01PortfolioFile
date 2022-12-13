@@ -45,12 +45,13 @@ public class DementiaGame8_UIManager : MonoBehaviour
                 if(Q_answer_InF[0].text.Equals(Q2_answer) && Q_answer_InF[1].text.Equals(Q4_answer))
                 {
                     Game_changeColor("clear");
-                    DementiaGame8_DataManager.instance.TimeManager_sc.Question_Success();
+                    SetUIGrup.instance.Question_Success();
                 }
                 else
                 {
-                    Game_changeColor("fail");
-                    DementiaGame8_DataManager.instance.TimeManager_sc.Question_Fail();
+                    // Game_changeColor("fail");
+                    // SetUIGrup.instance.Question_Fail();
+                    SceneSoundCtrl.Instance.GameFailSound();
                 }
             }
 
@@ -77,7 +78,7 @@ public class DementiaGame8_UIManager : MonoBehaviour
     }
     Color newColor;
     string newColor_code;
-    void Game_changeColor(string state)
+    public void Game_changeColor(string state)
     {
         if (state.Equals("clear"))
         {

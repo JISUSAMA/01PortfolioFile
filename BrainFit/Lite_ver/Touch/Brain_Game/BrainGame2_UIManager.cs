@@ -10,16 +10,10 @@ public class BrainGame2_UIManager : MonoBehaviour
     public Text Problem_text;
     public Text Total_PriceText; //계산 결과창 
     public Text AnswerNum;
-
     public string AnswerValue;
 
     public void SetTextDataText()
     {
-        // for (int i = 0; i < MenuNameText.Length; i++)
-        // {
-        //     MenuNameText[i].text = BrainGame2_DataManager.instance.menu[i];
-        //     MenuPriceText[i].text = BrainGame2_DataManager.instance.menu_price[i].ToString();
-        // }
         MenuIMG.sprite = MenuSprite[BrainGame2_DataManager.instance.Problem_number]; 
         BrainGame2_DataManager.instance.Question_number = Random.Range(0, BrainGame2_DataManager.instance.problem_list.Count);
         Problem_text.text = BrainGame2_DataManager.instance.problem_list[BrainGame2_DataManager.instance.Question_number].ToString();
@@ -45,12 +39,16 @@ public class BrainGame2_UIManager : MonoBehaviour
     {
         if (AnswerValue.Equals(BrainGame2_DataManager.instance.QuestionValue_list[BrainGame2_DataManager.instance.Question_number]))
         {
-          BrainGame2_DataManager.instance.TimerManager_sc.Question_Success();
+            SetUIGrup.instance.Question_Success();
         }
         else
         {
-            BrainGame2_DataManager.instance.TimerManager_sc.Question_Fail();
+            SceneSoundCtrl.Instance.GameFailSound(); //틀린 소리 내기 
         }
+        //else
+        //{
+        //    SetUIGrup.instance.Question_Fail();
+        //}
     }
     void SetValue(GameObject name)
     { 

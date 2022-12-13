@@ -5,7 +5,7 @@ using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 public class AppSoundManager : MonoBehaviour
 {
-   // public SceneSoundCtrl sceneSoundCtrl_sc;
+    // public SceneSoundCtrl sceneSoundCtrl_sc;
     public static AppSoundManager Instance { get; private set; }
     public AudioMixer audioMixer;
     public AudioSource bgm;
@@ -13,9 +13,11 @@ public class AppSoundManager : MonoBehaviour
 
     public AudioClip[] Bgm_audioClips;
     public AudioClip[] Sfx_audioClips;
+    public AudioClip[] GymnasticClips;
+
     public Dictionary<string, AudioClip> bgm_lookupTable = new Dictionary<string, AudioClip>();
     public Dictionary<string, AudioClip> sfx_lookupTable = new Dictionary<string, AudioClip>();
-
+    public Dictionary<string, AudioClip> gym_lookupTable = new Dictionary<string, AudioClip>();
     public float fadeSpeed = 80f;
     //public string currentPlayClipName;
 
@@ -39,7 +41,30 @@ public class AppSoundManager : MonoBehaviour
         foreach (AudioClip clip in Sfx_audioClips)
         {
             sfx_lookupTable.Add(clip.name, clip);
+         
         }
+        foreach (AudioClip clip in GymnasticClips)
+        {
+            gym_lookupTable.Add(clip.name, clip);
+        }
+
+        if (PlayerPrefs.HasKey("SoundPlay"))
+        {
+            string sound = PlayerPrefs.GetString("SoundPlay");
+            float volum = PlayerPrefs.GetFloat("SoundValue");
+            if (sound.Equals("true"))
+            {
+               
+                audioMixer.SetFloat("SFX", volum);
+                audioMixer.SetFloat("BGM", volum);
+            }
+            else
+            {
+                audioMixer.SetFloat("SFX", -60f);
+                audioMixer.SetFloat("BGM", -60f);
+            }
+        }
+
     }
 
     public void PlayBGM(string soundName)
@@ -58,7 +83,7 @@ public class AppSoundManager : MonoBehaviour
             StopCoroutine(_Bmg_FadeIn());
             StopCoroutine(_Bmg_FadeOut());
             StartCoroutine(_Bmg_FadeIn());
-         }
+        }
 
     }
     public void StopBGM()
@@ -112,6 +137,15 @@ public class AppSoundManager : MonoBehaviour
     {
         //Debug.Log("PlaySFX Sound name : " + clipName);
         sfx.PlayOneShot(Sfx_GetClipByName(clipName), volume);
+    }
+    public void PlayGYM(string clipName, float volume = 1f)
+    {
+        Debug.Log("Clip Name :" + clipName);
+        sfx.PlayOneShot(Gym_lookupTable(clipName), volume);
+    }
+    public AudioClip Gym_lookupTable(string clipName)
+    {
+        return gym_lookupTable[clipName];
     }
     public void AudioMixer_Volume(string mixer, float volume)
     {

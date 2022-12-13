@@ -54,7 +54,7 @@ public class Gymnasics_UIManager : MonoBehaviour
             Debug.Log(devices[i].name);
         }
 
-        Show_WebCam();
+     // Show_WebCam();
         Exercise_SetUIdata();
     }
 
@@ -86,79 +86,17 @@ public class Gymnasics_UIManager : MonoBehaviour
         Debug.Log("--------------------------------" + data);
        // ExerciseOrder_Slider.value = execiseOrder + 1;
         ExerciseOrder_text.text = (execiseOrder + 1).ToString();
-        //손가락 접기,손가락 체조를 따라해보세요.
-        if (execiseOrder.Equals(0))
+
+        //영상이 마지막구간이 아니면
+        if (!execiseOrder.Equals(9))
         {
+            AppSoundManager.Instance.PlayGYM(execiseOrder.ToString());
             Debug.Log("--------------------------------" + execiseOrder);
             ExerciseTitleText.text = data[execiseOrder]["title"].ToString();
             ExerciseNameText.text = data[execiseOrder]["subtitle"].ToString();
-            VideoHandler.instance.LoadVideo("Gymnasics", execiseOrder + 1);
+            VideoHandler.instance.LoadVideo("Gymnasics", execiseOrder);
             VideoHandler.instance.PlayVideo();
-            PlayVideo_ForTime();
-        }
-        else if (execiseOrder.Equals(1))
-        {
-            ExerciseTitleText.text = data[execiseOrder]["title"].ToString();
-            ExerciseNameText.text = data[execiseOrder]["subtitle"].ToString();
-            VideoHandler.instance.LoadVideo("Gymnasics", execiseOrder + 1);
-            VideoHandler.instance.PlayVideo();
-            PlayVideo_ForTime();
-        }
-        else if (execiseOrder.Equals(2))
-        {
-            ExerciseTitleText.text = data[execiseOrder]["title"].ToString();
-            ExerciseNameText.text = data[execiseOrder]["subtitle"].ToString();
-            VideoHandler.instance.LoadVideo("Gymnasics", execiseOrder + 1);
-            VideoHandler.instance.PlayVideo();
-            PlayVideo_ForTime();
-        }
-        else if (execiseOrder.Equals(3))
-        {
-            ExerciseTitleText.text = data[execiseOrder]["title"].ToString();
-            ExerciseNameText.text = data[execiseOrder]["subtitle"].ToString();
-            VideoHandler.instance.LoadVideo("Gymnasics", execiseOrder + 1);
-            VideoHandler.instance.PlayVideo();
-            PlayVideo_ForTime();
-        }
-        else if (execiseOrder.Equals(4))
-        {
-            ExerciseTitleText.text = data[execiseOrder]["title"].ToString();
-            ExerciseNameText.text = data[execiseOrder]["subtitle"].ToString();
-            VideoHandler.instance.LoadVideo("Gymnasics", execiseOrder + 1);
-            VideoHandler.instance.PlayVideo();
-            PlayVideo_ForTime();
-        }
-        else if (execiseOrder.Equals(5))
-        {
-            ExerciseTitleText.text = data[execiseOrder]["title"].ToString();
-            ExerciseNameText.text = data[execiseOrder]["subtitle"].ToString();
-            VideoHandler.instance.LoadVideo("Gymnasics", execiseOrder + 1);
-            VideoHandler.instance.PlayVideo();
-            PlayVideo_ForTime();
-        }
-        else if (execiseOrder.Equals(6))
-        {
-            ExerciseTitleText.text = data[execiseOrder]["title"].ToString();
-            ExerciseNameText.text = data[execiseOrder]["subtitle"].ToString();
-            VideoHandler.instance.LoadVideo("Gymnasics", execiseOrder + 1);
-            VideoHandler.instance.PlayVideo();
-            PlayVideo_ForTime();
-        }
-        else if (execiseOrder.Equals(7))
-        {
-            ExerciseTitleText.text = data[execiseOrder]["title"].ToString();
-            ExerciseNameText.text = data[execiseOrder]["subtitle"].ToString();
-            VideoHandler.instance.LoadVideo("Gymnasics", execiseOrder + 1);
-            VideoHandler.instance.PlayVideo();
-            PlayVideo_ForTime();
-        }
-        else if (execiseOrder.Equals(8))
-        {
-            ExerciseTitleText.text = data[execiseOrder]["title"].ToString();
-            ExerciseNameText.text = data[execiseOrder]["subtitle"].ToString();
-            VideoHandler.instance.LoadVideo("Gymnasics", execiseOrder + 1);
-            VideoHandler.instance.PlayVideo();
-            PlayVideo_ForTime();
+            PlayVideo_ForTime(data[execiseOrder]["playtime"].ToString());
         }
         else
         {
@@ -166,7 +104,7 @@ public class Gymnasics_UIManager : MonoBehaviour
             FinishCanvas.SetActive(true);
             Waiting_SecTime();
         }
-
+     
     }
     public void Exit_ButtonClick()
     {
@@ -180,21 +118,23 @@ public class Gymnasics_UIManager : MonoBehaviour
         ClosePopup.SetActive(false);
         Time.timeScale = 1; //재생
     }
-    public void PlayVideo_ForTime()
+    public void PlayVideo_ForTime(string timer)
     {
-        StopCoroutine(_PlayVideo_ForTime());
-        StartCoroutine(_PlayVideo_ForTime());
+        int timer_int = int.Parse(timer);
+        StopCoroutine(_PlayVideo_ForTime(timer_int));
+        StartCoroutine(_PlayVideo_ForTime(timer_int));
     }
-    IEnumerator _PlayVideo_ForTime()
+    IEnumerator _PlayVideo_ForTime(float timer)
     {
+        Debug.Log("timer :" + timer);
         //PlayTime_Slider.value = 0;
         ExercisePlay_b = true;
         while (ExercisePlay_b)
         {
-            ExcerciseTime(PlayTimeText);
+            ExcerciseTime(PlayTimeText, timer);
             float seconds = (float)VideoHandler.instance.mVideoPlayer.time;
-            Debug.Log(seconds);
-            if (seconds>=60)
+            // Debug.Log(seconds);
+            if (seconds >= timer)
             {
                 ExercisePlay_b = false;
                 break;
@@ -204,14 +144,15 @@ public class Gymnasics_UIManager : MonoBehaviour
         execiseOrder += 1;
         Exercise_SetUIdata();
     }
-    public void ExcerciseTime(Text _timer)
+    public void ExcerciseTime(Text _timer, float time)
     {
-        float seconds = 60-(float)VideoHandler.instance.mVideoPlayer.time;
+        float seconds = time - (float)VideoHandler.instance.mVideoPlayer.time;
         TimeSpan timespan = TimeSpan.FromSeconds(seconds);
-        string timer =seconds.ToString("N0");
+        string timer = seconds.ToString("N0");
         //Debug.Log(" timer  " + timer);
         _timer.text = timer;
     }
+
 
     //재생버튼
     public void PlayButtonClick()
@@ -258,7 +199,6 @@ public class Gymnasics_UIManager : MonoBehaviour
         updateTime = 1f;
 
         yield return new WaitForSeconds(1);
-        camTexture.Stop();
         SceneManager.LoadScene("0.Main"); //로그인 화면으로 이동
     }
 }

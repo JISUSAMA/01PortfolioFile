@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class DementiaGame2_DataManager : MonoBehaviour
 {
-    public Touch_TimerManager TimerManager_sc;
+
     public DementiaGame2_UIManager UIManager;
     public List<Dictionary<string, string>> proverb_data;
     public string Proverb_List; //속담 문제 4개 
@@ -48,7 +48,8 @@ public class DementiaGame2_DataManager : MonoBehaviour
     IEnumerator _DementiaGame2_Play()
     {
         SetProverb();//랜덤으로 4개의 문제 선택 하고 리스트 안에 넣어줌
-        TimerManager_sc.FindWord_sec_Timer(20,10,5);
+        //TimerManager_sc.FindWord_sec_Timer(20,10,5);
+        SetUIGrup.instance.TimeToScore(25);
         yield return null;
     }
 

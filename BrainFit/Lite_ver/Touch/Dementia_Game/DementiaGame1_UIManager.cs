@@ -71,21 +71,22 @@ public class DementiaGame1_UIManager : MonoBehaviour
                 Word_Text[DementiaGame1_DataManager.instance.blank2].color = changeColor;
             }
             SubmitAnswer();
-            DementiaGame1_DataManager.instance.TimerManager_sc.Question_Success();
+            SetUIGrup.instance.Question_Success();
         }
         //틀림
         else
         {
-            checkColor.sprite = AnswerCheck_sp[1];
-            string changeColor_str = "#FD6C6C"; 
-            Color changeColor;
-            if (ColorUtility.TryParseHtmlString(changeColor_str, out changeColor))
-            {
-                Word_Text[DementiaGame1_DataManager.instance.blank1].color = changeColor;
-                Word_Text[DementiaGame1_DataManager.instance.blank2].color = changeColor;
-            }
-            SubmitAnswer();
-            DementiaGame1_DataManager.instance.TimerManager_sc.Question_Fail();
+            SceneSoundCtrl.Instance.GameFailSound();
+            //checkColor.sprite = AnswerCheck_sp[1];
+            //string changeColor_str = "#FD6C6C"; 
+            //Color changeColor;
+            //if (ColorUtility.TryParseHtmlString(changeColor_str, out changeColor))
+            //{
+            //    Word_Text[DementiaGame1_DataManager.instance.blank1].color = changeColor;
+            //    Word_Text[DementiaGame1_DataManager.instance.blank2].color = changeColor;
+            //}
+            //SubmitAnswer();
+            //SetUIGrup.instance.Question_Fail();
         }
       
     }

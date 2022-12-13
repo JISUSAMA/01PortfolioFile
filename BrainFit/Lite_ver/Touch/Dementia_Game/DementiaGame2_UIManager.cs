@@ -15,11 +15,11 @@ public class DementiaGame2_UIManager : MonoBehaviour
     {
         if (ProverbText[num].text.Equals(DementiaGame2_DataManager.instance.Proverb_List))
         {
-            DementiaGame4_DataManager.instance.TimerManager_sc.Question_Success();
+            SetUIGrup.instance.Question_Success();
         }
         else
         {
-
+            SceneSoundCtrl.Instance.GameFailSound();
         }
 
     }

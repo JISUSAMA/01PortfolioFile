@@ -5,7 +5,7 @@ using UnityEngine;
 public class DementiaGame6_DataManager : MonoBehaviour
 {
     public DementiaGame6_UIManager UIManager;
-    public Touch_TimerManager TimerManager_sc;
+
     public List<GameObject> CurrnetPaint_Parent;
     public List<GameObject> CurrnetPaint_Child_left;
     public List<GameObject> CurrnetPaint_Child_right;
@@ -40,7 +40,8 @@ public class DementiaGame6_DataManager : MonoBehaviour
     IEnumerator _DementiaGame6_Play()
     {
         UIManager.SetCurrentPainFindBtn();
-        TimerManager_sc.FindWord_sec_Timer(28, 10, 5);
+        //  TimerManager_sc.FindWord_sec_Timer(28, 10, 5);
+        SetUIGrup.instance.TimeToScore(40);
         yield return null;
     }
 

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DementiaGame1_DataManager : MonoBehaviour
 {
-    public Touch_TimerManager TimerManager_sc;
+
     public DementiaGame1_UIManager UIManager;
     [SerializeField] int word_randNum_list; //엑셀안에 있는 문제번호
     public List<string> Question_word_list; //정답 4글자
@@ -98,7 +98,8 @@ public class DementiaGame1_DataManager : MonoBehaviour
         ////보기안에 텍스트 넣어줌
         for (int j = 0; j < 4; j++)
             UIManager.CheckAnswer_text[j].text = AnswerString_list[j];
-        TimerManager_sc.FindWord_sec_Timer(8,5,2);
+        //  TimerManager_sc.FindWord_sec_Timer(8,5,2);
+        SetUIGrup.instance.TimeToScore(25);
     }
 
  

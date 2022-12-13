@@ -17,7 +17,7 @@ public class DementiaGame5_UIManager : MonoBehaviour
         {
             //게임 끝
             GameAppManager.instance.playBool = false;
-            DementiaGame5_DataManager.instance.TimerManager_sc.Question_Success();
+            SetUIGrup.instance.Question_Success();
            // GameAppManager.instance.GameLoadScene();
         } 
     }
