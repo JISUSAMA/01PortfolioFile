@@ -2,11 +2,10 @@
 
 http://gateways.kr/
 
-------------------------------------------------------------------------------------------------------------------------------------
 
 2020.07.13 ~ 2020.12 
 보자마자 Play2
-<br>
+<p>
 <h2>소스 코드</h2>
 https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/Mobile
 
@@ -20,7 +19,7 @@ https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/Mobile
 
 </details>
 <details>
-
+</p>
 보자마자 Play2 리얼모션
                      
 모션인식 기반 캐쥬얼 게임!
