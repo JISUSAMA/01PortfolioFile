@@ -4,7 +4,9 @@ http://gateways.kr/
 
 
 2020.07.13 ~ 2020.12 
-##보자마자 Play2
+<h3>보자마자 Play2</h3>
+
+![화면 캡처 2023-03-15 084159](https://user-images.githubusercontent.com/38304918/225186471-ada6bcce-e0bf-4c01-99f6-d2810922fb8c.png)
 
 소스 코드
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/Mobile
@@ -19,8 +21,11 @@ http://gateways.kr/
 
 </details>
 
-##보자마자 Play2 리얼모션
-                     
+<h3>보자마자 Play2 리얼모션</h3>
+
+소스 코드
+<br>https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/Mobile  
+
 모션인식 기반 캐쥬얼 게임!
 동작인식 센서를 통해 사람의 손동작을 인식 및 입력하는 기술을 적용하여 30초동안 10개의 게임이 진행되는 새로운 방식의 모션 캐쥬얼 게임입니다.
 
@@ -32,17 +37,18 @@ http://gateways.kr/
 ##RunToTheMoon
 
 2021.01 ~ 
-##복천박물관 _ 복둥이의 시간여행
+<h3>복천박물관 _ 복둥이의 시간여행</h3>
 
 2022.06.22 ~ 2022.07.22  
-##JBLisen 전북 설문조사 데모 앱 제작
+<h3>JBLisen 전북 설문조사 데모 앱 제작</h3>
 
 2022.10.17 ~ 
-##어메이징 코어 작업
+<h3>어메이징 코어 작업</h3>
 
 2022.05 ~  
-##보자마자 케어
-##보자마자 브레인(Origin_ver, English_ver, Lite_ver)
-
 보자마자 케어와 보자마자 브레인은 어르신들을 위해 터치 스크린과 동작인식을 활용해 치매예방, 뇌훈련, 근력강화 체조 등 체력증진 및 인지능력 향상을 도와주고 
 안면인식을 통한 편리한 사용자 구분 및 스케쥴관리 등을 제공하는 최상의 건강관리 서비스입니다.
+
+<h3>보자마자 케어</h3>
+<h3>보자마자 브레인(Origin_ver, English_ver, Lite_ver)</h3>
+
