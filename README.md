@@ -6,11 +6,12 @@ http://gateways.kr/
 2020.07.13 ~ 2020.12 
 ##보자마자 Play2
 
-###소스 코드
-  https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/Mobile
+소스 코드
+<br>https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/Mobile
 
 <details>
 <summary> 보자마자 Play2 인게임 이미지 </summary>
+
 ![화면 캡처 2023-03-15 084159](https://user-images.githubusercontent.com/38304918/225186471-ada6bcce-e0bf-4c01-99f6-d2810922fb8c.png)
 ![화면 캡처 2023-03-15 084545](https://user-images.githubusercontent.com/38304918/225186482-c0c77481-0a8f-4ada-8ebe-3c92ff8d4b01.png)
 ![화면 캡처 2023-03-15 084636](https://user-images.githubusercontent.com/38304918/225186490-060bb3e0-7664-40db-9c0a-2f8eb7090a74.png)
