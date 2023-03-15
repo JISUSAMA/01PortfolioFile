@@ -28,31 +28,46 @@ http://gateways.kr/
 <br>
 모션인식 기반 캐쥬얼 게임!<br>
 동작인식 센서를 통해 사람의 손동작을 인식 및 입력하는 기술을 적용하여 30초동안 10개의 게임이 진행되는 새로운 방식의 모션 캐쥬얼 게임입니다.
-
+<details>
 <summary> 보자마자 Play2 리얼모션 인게임 이미지</summary>
 
 
 </details>
-2021.01 ~ 
+<h3>보자마자 피트니스</h3>
+
+![화면 캡처 2023-03-15 145251](https://user-images.githubusercontent.com/38304918/225229355-4aa8557f-f861-438a-84d7-18f45a5374f8.png)
+
+2021.01 ~ 2021.04.30
 <h3>RunToTheMoon</h3>
 소스 코드
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/RunToTheMoon
 
-2021.01 ~ 
+2021.05.10 ~ 2021.07.15
+<h3>RunToTheMoon 영문작업</h3>
+소스 코드
+<br>https://github.com/JISUSAMA/GatewaysProject/tree/main/RunToTheMoon
+
+<h3>사이클링 투어/ 시티투어 부산</h3>
+기존 프로젝트 리딩 작업 후, 영문 버전 수정 작업을 진행 하였습니다.
+
+2021.09 ~ 2021.12.10
 <h3>복천박물관 _ 복둥이의 시간여행</h3>
+
+<br> 복천 박물관에서 진행 되고 있는 3개의 AR 컨텐츠 중 1개 입니다.
+복천 박물관 야외 전시관에서 플레이 할 수 있는 AR 컨텐츠로 게임 스토리를 진행 하면서 같은 이미지 유물을 발견 했을 경우 다음으로 진행 되는 형식의 게임 입니다.
+
 소스 코드 
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/TimeTravel
 
 2022.06.22 ~ 2022.07.22  
 <h3>JBLisen 전북 설문조사 데모 앱 제작</h3>
 
-2022.10.17 ~ 
+2022.10.17 ~ 2022.11.15
 <h3>어메이징 코어 작업</h3>
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/AmazingCore
 
 2022.05 ~  
-보자마자 케어와 보자마자 브레인은 어르신들을 위해 터치 스크린과 동작인식을 활용해 치매예방, 뇌훈련, 근력강화 체조 등 체력증진 및 인지능력 향상을 도와주고 
-안면인식을 통한 편리한 사용자 구분 및 스케쥴관리 등을 제공하는 최상의 건강관리 서비스입니다.
+보자마자 케어와 보자마자 브레인은 어르신들을 위해 터치 스크린과 동작인식을 활용해 치매예방, 뇌훈련, 근력강화 체조 등 체력증진 및 인지능력 향상을 도와주고 안면인식을 통한 편리한 사용자 구분 및 스케쥴관리 등을 제공하는 최상의 건강관리 서비스입니다.
 
 <h3>보자마자 케어</h3>
 소스 코드 
