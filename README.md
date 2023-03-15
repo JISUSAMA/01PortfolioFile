@@ -9,17 +9,13 @@ http://gateways.kr/
 ###소스 코드
     https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/Mobile
 
-   <details>
-        <summary> 보자마자 Play2 인게임 이미지 </summary>
-        
-        
-       
-
-        ![화면 캡처 2023-03-15 084159](https://user-images.githubusercontent.com/38304918/225167250-da816569-5ef9-40d8-b0ce-402437f0d65c.png)
-        ![화면 캡처 2023-03-15 084545](https://user-images.githubusercontent.com/38304918/225167268-73be2ad4-86b0-4711-bae6-1e938964fb10.png)
-        ![화면 캡처 2023-03-15 084636](https://user-images.githubusercontent.com/38304918/225167286-d955b8c4-92f9-473a-83be-936fd3f35f4b.png)
-        ![화면 캡처 2023-03-15 084704](https://user-images.githubusercontent.com/38304918/225167295-1ddec464-c1da-4424-a7e1-3451a597ff31.png)
-   </details>
+<details>
+<summary> 보자마자 Play2 인게임 이미지 </summary>
+![화면 캡처 2023-03-15 084159](https://user-images.githubusercontent.com/38304918/225167250-da816569-5ef9-40d8-b0ce-402437f0d65c.png)
+![화면 캡처 2023-03-15 084545](https://user-images.githubusercontent.com/38304918/225167268-73be2ad4-86b0-4711-bae6-1e938964fb10.png)
+![화면 캡처 2023-03-15 084636](https://user-images.githubusercontent.com/38304918/225167286-d955b8c4-92f9-473a-83be-936fd3f35f4b.png)
+![화면 캡처 2023-03-15 084704](https://user-images.githubusercontent.com/38304918/225167295-1ddec464-c1da-4424-a7e1-3451a597ff31.png)
+</details>
 
 ##보자마자 Play2 리얼모션
                      
