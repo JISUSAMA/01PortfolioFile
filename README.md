@@ -7,6 +7,7 @@ http://gateways.kr/
 2020.07.13 ~ 2020.12 
 보자마자 Play2
 <br>
+<h2>소스 코드</h2>
 https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/Mobile
 
 <details>
