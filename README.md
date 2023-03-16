@@ -61,8 +61,8 @@ http://gateways.kr/
 
 2022.06.22 ~ 2022.07.22  
 <h3>JBLisen 전북 설문조사 데모 앱 제작</h3>
-![merge_from_ofoct (1)](https://user-images.githubusercontent.com/38304918/225533958-cdb6d481-ca6d-4f7a-b9de-7d2d3b26fe04.jpg)
 
+![merge_from_ofoct (1)](https://user-images.githubusercontent.com/38304918/225776910-c33a10bc-4407-4d13-bea0-45cdc022180c.jpg)
 
 2022.10.17 ~ 2022.11.15
 <h3>어메이징 코어 작업</h3>
