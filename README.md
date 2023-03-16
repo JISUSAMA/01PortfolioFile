@@ -61,6 +61,8 @@ http://gateways.kr/
 
 2022.06.22 ~ 2022.07.22  
 <h3>JBLisen 전북 설문조사 데모 앱 제작</h3>
+![merge_from_ofoct (1)](https://user-images.githubusercontent.com/38304918/225533958-cdb6d481-ca6d-4f7a-b9de-7d2d3b26fe04.jpg)
+
 
 2022.10.17 ~ 2022.11.15
 <h3>어메이징 코어 작업</h3>
@@ -70,9 +72,12 @@ http://gateways.kr/
 보자마자 케어와 보자마자 브레인은 어르신들을 위해 터치 스크린과 동작인식을 활용해 치매예방, 뇌훈련, 근력강화 체조 등 체력증진 및 인지능력 향상을 도와주고 안면인식을 통한 편리한 사용자 구분 및 스케쥴관리 등을 제공하는 최상의 건강관리 서비스입니다.
 
 <h3>보자마자 케어</h3>
+기본적으로 터치 게임 형식의 뇌훈련, 치매예방이 있고 립모션을 이용한 손게임 그리고 키넥트를 활용한 치매 예방체조로 구성 되어있습니다.
 소스 코드 
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaCare
 
-<h3>보자마자 브레인(Origin_ver, English_ver, Lite_ver)</h3>
+<h3>보자마자 브레인(오리지날, , Lite_ver)</h3>
+
+Lite 버전과 Mobile 버전
 소스 코드 
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit
