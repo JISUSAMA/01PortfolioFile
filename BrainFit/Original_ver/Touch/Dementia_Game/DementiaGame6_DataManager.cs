@@ -27,21 +27,12 @@ public class DementiaGame6_DataManager : MonoBehaviour
 
     }
     IEnumerator _GameStart()
-    {
-        yield return new WaitUntil(() => GameAppManager.instance.playBool == true); //트루가 되면 게임 시작
-        DementiaGame6_Play();
-        yield return null;
-    }
-    public void DementiaGame6_Play()
-    {
-        StopCoroutine("_DementiaGame6_Play");
-        StartCoroutine("_DementiaGame6_Play");
-    }
-    IEnumerator _DementiaGame6_Play()
-    {
+    { 
         UIManager.SetCurrentPainFindBtn();
+        yield return new WaitUntil(() => GameAppManager.instance.playBool == true); //트루가 되면 게임 시작
         TimerManager_sc.FindWord_sec_Timer(28, 10, 5);
         yield return null;
     }
+
 
 }

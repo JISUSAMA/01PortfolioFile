@@ -25,7 +25,6 @@ public class DementiaGame2_DataManager : MonoBehaviour
         if (instance != null) Destroy(this.gameObject);
         else instance = this;
 
-
         proverb_data = CSVReader.Read("ProverbList"); //낱말찾기
         
     }
@@ -34,27 +33,14 @@ public class DementiaGame2_DataManager : MonoBehaviour
     {
         StopCoroutine(_GameStart());
         StartCoroutine(_GameStart());
-
     }
     IEnumerator _GameStart()
     {
-        yield return new WaitUntil(() => GameAppManager.instance.playBool == true); //트루가 되면 게임 시작
-        DementiaGame2_Play();
-        yield return null;
-    }
-
-    public void DementiaGame2_Play()
-    {
-        StopCoroutine("_DementiaGame2_Play");
-        StartCoroutine("_DementiaGame2_Play");
-    }
-    IEnumerator _DementiaGame2_Play()
-    {
         SetProverb();//랜덤으로 4개의 문제 선택 하고 리스트 안에 넣어줌
-        TimerManager_sc.FindWord_sec_Timer(20,10,5);
+        yield return new WaitUntil(() => GameAppManager.instance.playBool == true); //트루가 되면 게임 시작
+        TimerManager_sc.FindWord_sec_Timer(20, 10, 5);
         yield return null;
     }
-
     void SetProverb()
     {
         StopCoroutine("_Set_ProverbList");

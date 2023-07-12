@@ -32,6 +32,7 @@ public class BrainGame8_DataManager : MonoBehaviour
     IEnumerator _BrainGame8_Play()
     {
         Set_Question_Data();
+        yield return new WaitUntil(() => GameAppManager.instance.playBool == true); //트루가 되면 게임 시작
         TimerManager_sc.FindWord_sec_Timer(15,10,5);
         yield return null;
     }

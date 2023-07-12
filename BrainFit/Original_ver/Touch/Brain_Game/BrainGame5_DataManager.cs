@@ -47,23 +47,14 @@ public class BrainGame5_DataManager : MonoBehaviour
     }
     IEnumerator _GameStart()
     {
-        yield return new WaitUntil(() => GameAppManager.instance.playBool == true); //트루가 되면 게임 시작
-        BrainGame5_Play();
-        yield return null;
-    }
-    public void BrainGame5_Play()
-    {
-        StopCoroutine("_BrainGame5_Play");
-        StartCoroutine("_BrainGame5_Play");
-    }
-    IEnumerator _BrainGame5_Play()
-    {
+     
         Initialization();
         Choose_Question_Word();
-        TimerManager_sc.FindWord_sec_Timer(35,15,5);
-        //게임끝
+        yield return new WaitUntil(() => GameAppManager.instance.playBool == true); //트루가 되면 게임 시작
+        TimerManager_sc.FindWord_sec_Timer(35, 15, 5);
         yield return null;
     }
+
     void Choose_Question_Word()
     {
         for (int i = 0; i < 25; i++)

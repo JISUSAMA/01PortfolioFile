@@ -29,26 +29,15 @@ public class DementiaGame1_DataManager : MonoBehaviour
     {
         StopCoroutine(_GameStart());
         StartCoroutine(_GameStart());
-
     }
     IEnumerator _GameStart()
     {
-        yield return new WaitUntil(() => GameAppManager.instance.playBool == true); //트루가 되면 게임 시작
-        DementiaGame1_Play();
-        yield return null;
-    }
-    public void DementiaGame1_Play()
-    {
-        StopCoroutine("_DementiaGame1_Play");
-        StartCoroutine("_DementiaGame1_Play");
-    }
-    IEnumerator _DementiaGame1_Play()
-    {
         Set_Question_Data();
+        yield return new WaitUntil(() => GameAppManager.instance.playBool == true); //트루가 되면 게임 시작
+        TimerManager_sc.FindWord_sec_Timer(8, 5, 2);
         yield return null;
     }
     //엑셀안의 단어 중에서 20가지를 골라서 리스트안에 넣어줌
-
     public void Set_Question_Data()
     {
         int rand = Random.Range(0, data.Count-1);
@@ -98,7 +87,7 @@ public class DementiaGame1_DataManager : MonoBehaviour
         ////보기안에 텍스트 넣어줌
         for (int j = 0; j < 4; j++)
             UIManager.CheckAnswer_text[j].text = AnswerString_list[j];
-        TimerManager_sc.FindWord_sec_Timer(8,5,2);
+
     }
 
  

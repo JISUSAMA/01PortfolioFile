@@ -28,22 +28,12 @@ public class BrainGame8_DataManager : MonoBehaviour
     }
     IEnumerator _GameStart()
     {
-        yield return new WaitUntil(() => GameAppManager.instance.playBool == true); //트루가 되면 게임 시작
-        BrainGame8_Play();
-        yield return null;
-    }
-    public void BrainGame8_Play()
-    {
-        StopCoroutine("_BrainGame8_Play");
-        StartCoroutine("_BrainGame8_Play");
-    }
-    IEnumerator _BrainGame8_Play()
-    {
         Set_Question_Data();
-        // TimerManager_sc.FindWord_sec_Timer(15,10,5);
+        yield return new WaitUntil(() => GameAppManager.instance.playBool == true); //트루가 되면 게임 시작
         SetUIGrup.instance.TimeToScore(25);
         yield return null;
     }
+
     public void Set_Question_Data()
     {
         int random = Random.Range(0, UIManager.QuestionSprite.Length);

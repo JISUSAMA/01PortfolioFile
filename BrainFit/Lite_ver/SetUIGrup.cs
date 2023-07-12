@@ -79,16 +79,16 @@ public class SetUIGrup : MonoBehaviour
     {
         StartTutorial();
         yield return new WaitUntil(() => Tutorial_state == false);
-        if (GameAppManager.instance.GameKind == "Brain" || GameAppManager.instance.GameKind == "Dementia")
-        {
-            CountDownPopup.SetActive(true);
-            for (int i = 0; i < CountImg_sp.Length - 1; i++)
-            {
-                CountImg_bg.sprite = CountImg_sp[4 - i];
-                yield return new WaitForSeconds(1);
-            }
-            CountDownPopup.SetActive(false);
-        }
+        //if (GameAppManager.instance.GameKind == "Brain" || GameAppManager.instance.GameKind == "Dementia")
+        //{
+        //    CountDownPopup.SetActive(true);
+        //    for (int i = 0; i < CountImg_sp.Length - 1; i++)
+        //    {
+        //        CountImg_bg.sprite = CountImg_sp[4 - i];
+        //        yield return new WaitForSeconds(1);
+        //    }
+        //    CountDownPopup.SetActive(false);
+        //}
         GameAppManager.instance.playBool = true;
     }
     void StartTutorial()
@@ -106,6 +106,7 @@ public class SetUIGrup : MonoBehaviour
     }
     public void OnClick_tutorial_next(GameObject next)
     {
+        SceneSoundCtrl.Instance.ButtonClick_sound();
         if (EventSystem.current.currentSelectedGameObject.name.Equals("NextBtn"))
         {
             EventSystem.current.currentSelectedGameObject.SetActive(false); //현재 오브젝트는 비활성화 
@@ -170,6 +171,7 @@ public class SetUIGrup : MonoBehaviour
 
     public void OnClick_tutorial_finish()
     {
+        SceneSoundCtrl.Instance.ButtonClick_sound();
         for (int i = 0; i < Tutorial_Panel.Length; i++)
         {
             Tutorial_Panel[i].SetActive(false);
@@ -210,6 +212,7 @@ public class SetUIGrup : MonoBehaviour
             Medal_level = 3;
             Medal_level_string = "wooden";
         }
+        Time.timeScale = 0;
         SceneSoundCtrl.Instance.GameSuccessSound();
         PlayerPrefs.SetString("GameClearState", "true");
         GameAppManager.instance.GamePlayTime.Add(DefaltAnswerT - AnswerTimer_f);
@@ -219,6 +222,7 @@ public class SetUIGrup : MonoBehaviour
         State_img.gameObject.SetActive(true);
         State_img.sprite = State_sp[Medal_level];
         GameAppManager.instance.playBool = false;
+        Time.timeScale = 1;
         yield return new WaitForSeconds(1.5f);
         State_img.gameObject.SetActive(true);
         GameAppManager.instance.CurrentQusetionNumber += 1;

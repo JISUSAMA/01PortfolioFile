@@ -31,18 +31,8 @@ public class DementiaGame4_DataManager : MonoBehaviour
     }
     IEnumerator _GameStart()
     {
-        yield return new WaitUntil(() => GameAppManager.instance.playBool == true); //트루가 되면 게임 시작
-        DementiaGame4_play();
-        yield return null;
-    }
-    public void DementiaGame4_play()
-    {
-        StopCoroutine("_DementiaGame4_play");
-        StartCoroutine("_DementiaGame4_play");
-    }
-    IEnumerator _DementiaGame4_play()
-    {
         Set_Kind_Data();
+        yield return new WaitUntil(() => GameAppManager.instance.playBool == true); //트루가 되면 게임 시작
         TimerManager_sc.FindWord_sec_Timer(20, 10, 5);
         UIManager.DrawLine_Start();
         yield return null;
@@ -50,7 +40,6 @@ public class DementiaGame4_DataManager : MonoBehaviour
 
     void Set_Kind_Data()
     {
-     
         int Kind_rand = Random.Range(0, Question_Kind_str.Length);
         Kind_str = Question_Kind_str[Kind_rand].ToString();
         Debug.Log("Kind_rand" + Kind_rand + "Kind_str" + Kind_str);
@@ -60,11 +49,9 @@ public class DementiaGame4_DataManager : MonoBehaviour
         else if (Kind_str.Equals("Color")) { Set_Kind_Img(UIManager.Fraction_kind4_img.Length); }
         else if (Kind_str.Equals("Bar")) { Set_Kind_Img(UIManager.Fraction_kind5_img.Length); }
 
-   
     }
     void Set_Kind_Img(int listLength)
     {
-        Debug.Log("listLength" + listLength);
         StopCoroutine("_Set_Kind_Img");
         StartCoroutine("_Set_Kind_Img", listLength);
     }
@@ -91,8 +78,9 @@ public class DementiaGame4_DataManager : MonoBehaviour
             yield return null;
         }
         GameAppManager.instance.GetShuffleList(Food_int);
+
         //UI 이미지 적용
-        for(int i =0; i<5; i++)
+        for (int i =0; i<5; i++)
         {
             if (Kind_str.Equals("Pizza"))
             {

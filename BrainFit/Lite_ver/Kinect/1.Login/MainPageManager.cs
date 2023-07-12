@@ -26,12 +26,11 @@ public class MainPageManager : MonoBehaviour
     private void OnEnable()
     {
         AppSoundManager.Instance.PlayBGM("MainBGM");
-        setting.volum = PlayerPrefs.GetFloat("SoundValue");
-        Debug.Log("SoundValue : " + setting.volum);
-        Debug.Log("SoundValue : " + PlayerPrefs.GetString("SoundPlay"));
-        AppSoundManager.Instance.audioMixer.SetFloat("SFX", setting.volum);
-        AppSoundManager.Instance.audioMixer.SetFloat("BGM", setting.volum);
-        setting.VolumSlider.value = setting.volum;
+        SettingToggle();
+        //setting.volum = PlayerPrefs.GetFloat("SoundValue");
+        //AppSoundManager.Instance.audioMixer.SetFloat("SFX", setting.volum);
+        //AppSoundManager.Instance.audioMixer.SetFloat("BGM", setting.volum);
+        //setting.VolumSlider.value = setting.volum;
         Debug.Log("Sound : " + setting.VolumSlider.value);
     }
     //게임 시작 버튼

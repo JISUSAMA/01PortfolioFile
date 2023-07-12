@@ -23,20 +23,9 @@ public class DementiaGame5_DataManager : MonoBehaviour
     }
     IEnumerator _GameStart()
     {
-        yield return new WaitUntil(() => GameAppManager.instance.playBool == true); //트루가 되면 게임 시작
-        DementiaGame5_Play();
-        yield return null;
-    }
-    public void DementiaGame5_Play()
-    {
-        StopCoroutine("_DementiaGame5_Play");
-        StartCoroutine("_DementiaGame5_Play");
-    }
-    IEnumerator _DementiaGame5_Play()
-    {
         UIManager.PaintGrup[Random.Range(0, UIManager.PaintGrup.Length)].gameObject.SetActive(true);
-        TimerManager_sc.FindWord_sec_Timer(28,10,5);
+        yield return new WaitUntil(() => GameAppManager.instance.playBool == true); //트루가 되면 게임 시작
+        TimerManager_sc.FindWord_sec_Timer(28, 10, 5);
         yield return null;
     }
-
 }

@@ -23,32 +23,19 @@ public class DementiaGame8_DataManager : MonoBehaviour
     }
     IEnumerator _GameStart()
     {
-        yield return new WaitUntil(() => GameAppManager.instance.playBool == true); //트루가 되면 게임 시작
-        DementiaGame8_Play();
-        yield return null;
-    }
-    public void DementiaGame8_Play()
-    {
-        StopCoroutine(_DementiaGame8_Play());
-        StartCoroutine(_DementiaGame8_Play());
-    }
-    IEnumerator _DementiaGame8_Play()
-    {
         int rand = Random.Range(0, data.Count);
-        Set_Question_Data(rand);
+        Set_Question_Data(rand); 
+        yield return new WaitUntil(() => GameAppManager.instance.playBool == true); //트루가 되면 게임 시작
         TimeManager_sc.FindWord_sec_Timer(18, 10, 3);
         yield return null;
     }
-
     public void Set_Question_Data(int num)
     {
-
         Q1_str = data[num]["Q1"];
         Q2_str = data[num]["Q2"];
         Q3_str = data[num]["Q3"];
         Q4_str = data[num]["Q4"];
 
-      
         UIManager.Q1.text = Q1_str;
         UIManager.Q2_answer = Q2_str;
 

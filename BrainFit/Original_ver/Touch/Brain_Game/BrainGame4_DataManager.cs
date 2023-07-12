@@ -32,23 +32,11 @@ public class BrainGame4_DataManager : MonoBehaviour
     }
     IEnumerator _GameStart()
     {
-        yield return new WaitUntil(() => GameAppManager.instance.playBool == true); //트루가 되면 게임 시작
-        BrainGame4_Play();
-        yield return null;
-    }
-
-    public void BrainGame4_Play()
-    {
-        StopCoroutine(_BrainGame4_Play());
-        StartCoroutine(_BrainGame4_Play());
-    }
-    IEnumerator _BrainGame4_Play()
-    {
         UIManager.DrawLine_Start();
-        TimerManager_sc.FindWord_sec_Timer(18,10,5);
+        yield return new WaitUntil(() => GameAppManager.instance.playBool == true); //트루가 되면 게임 시작
+        TimerManager_sc.FindWord_sec_Timer(18, 10, 5);
         //게임끝
         yield return null;
     }
 
-  
 }

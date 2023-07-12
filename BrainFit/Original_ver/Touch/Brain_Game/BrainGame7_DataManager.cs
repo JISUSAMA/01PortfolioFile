@@ -24,21 +24,12 @@ public class BrainGame7_DataManager : MonoBehaviour
     }
     IEnumerator _GameStart()
     {
+        Choose_Random_Question(); 
         yield return new WaitUntil(() => GameAppManager.instance.playBool == true); //트루가 되면 게임 시작
-        BrainGame7_Play();
-        yield return null;
-    }
-    public void BrainGame7_Play()
-    {
-        StopCoroutine("_BrainGame7_Play");
-        StartCoroutine("_BrainGame7_Play");
-    }
-    IEnumerator _BrainGame7_Play()
-    {
-        Choose_Random_Question();
         TimerManager_sc.FindWord_sec_Timer(18f, 10, 5);
         yield return null;
     }
+  
     public void Choose_Random_Question()
     {
         StopCoroutine("_Choose_Random_Question");

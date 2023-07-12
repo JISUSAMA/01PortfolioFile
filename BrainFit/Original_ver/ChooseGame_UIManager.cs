@@ -1,11 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class ChooseGame_UIManager : MonoBehaviour
 {
 
+    [Header("Setting Grup")]
+    public Toggle TutorialToggle;
+    private void Start()
+    {
+        //튜토리얼
+        SettingToggle();
+    }
     //뇌 훈련 게임 버튼 클릭
     public void OnClick_BrainGame()
     {
@@ -81,7 +89,11 @@ public class ChooseGame_UIManager : MonoBehaviour
 
         GameAppManager.instance.GameLoadScene();
     }
-
+    public void OnClick_RestVideo(string url)
+    {
+        AppSoundManager.Instance.StopBGM();
+        Application.OpenURL(url);
+    }
     public void LoadSceneName(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
@@ -96,6 +108,43 @@ public class ChooseGame_UIManager : MonoBehaviour
         else
         {
             SceneManager.LoadScene("0.Main");
+        }
+    }
+    //팝업창 열릴 때, 셋팅 설정하기 
+    public void SettingToggle()
+    {
+        //튜토리얼
+        if (PlayerPrefs.HasKey("TutorialPlay"))
+        {
+            string tutorial = PlayerPrefs.GetString("TutorialPlay");
+            if (tutorial.Equals("true"))
+            {
+                TutorialToggle.isOn = true;
+                PlayerPrefs.SetString("TutorialPlay", "true");
+            }
+            else
+            {
+                TutorialToggle.isOn = false;
+                PlayerPrefs.SetString("TutorialPlay", "false");
+            }
+        }
+        else
+        {
+            PlayerPrefs.SetString("TutorialPlay", "true");
+            TutorialToggle.isOn = true;
+        }
+    }
+    public void SettingToggle_Tutorial()
+    {
+        string tutorial = PlayerPrefs.GetString("TutorialPlay");
+        Debug.Log("Tutorial :" + PlayerPrefs.GetString("TutorialPlay"));
+        if (TutorialToggle.isOn)
+        {
+            PlayerPrefs.SetString("TutorialPlay", "true");
+        }
+        else
+        {
+            PlayerPrefs.SetString("TutorialPlay", "false");
         }
     }
 }

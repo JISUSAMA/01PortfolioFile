@@ -34,11 +34,13 @@ public class BrainGame1_DataManager : MonoBehaviour
     }
     IEnumerator _GameStart()
     {
+        Initialization();
+        Choose_Random_Word();
         yield return new WaitUntil(() => GameAppManager.instance.playBool == true); //트루가 되면 게임 시작
-        BrainGame1_Play();
+        TimerManager_sc.FindWord_sec_Timer(15, 10, 5);
         yield return null;
     }
-   
+
     //초기화
     void Initialization()
     {
@@ -47,17 +49,7 @@ public class BrainGame1_DataManager : MonoBehaviour
         UIManager.FindWord_text.text = "";
         QusetionPieceWord_list.Clear();
     }
-    public void BrainGame1_Play()
-    {
-        StopCoroutine("_BrainGame1_Play");
-        StartCoroutine("_BrainGame1_Play");
-    }
-    IEnumerator _BrainGame1_Play()
-    {
-        Initialization();
-        Choose_Random_Word();
-        yield return null;
-    }
+
 
     public void Choose_Random_Word()
     {
@@ -73,7 +65,6 @@ public class BrainGame1_DataManager : MonoBehaviour
         {
             UIManager.Piece_btn_text[i].text = BrainGame1_Piece_str_list[i];
         }
-        TimerManager_sc.FindWord_sec_Timer(15,10,5);
     }
    
 }
