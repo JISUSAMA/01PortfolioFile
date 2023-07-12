@@ -50,6 +50,12 @@ http://gateways.kr/
 <h3>사이클링 투어/ 시티투어 부산</h3>
 기존 프로젝트 리딩 작업 후, 영문 버전 수정 작업을 진행 하였습니다.
 
+<br> 사이클링 투어:
+<br> 소스코드
+<p> 시티투어 부산
+소스코드
+</P> 
+
 2021.09 ~ 2021.12.10
 <h3>복천박물관 _ 복둥이의 시간여행</h3>
 
@@ -73,11 +79,16 @@ http://gateways.kr/
 
 <h3>보자마자 케어</h3>
 기본적으로 터치 게임 형식의 뇌훈련, 치매예방이 있고 립모션을 이용한 손게임 그리고 키넥트를 활용한 치매 예방체조로 구성 되어있습니다.
+
 소스 코드 
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaCare
 
-<h3>보자마자 브레인(오리지날, , Lite_ver)</h3>
 
-Lite 버전과 Mobile 버전
+<h3>보자마자 브레인(Original,English,Lite,Mobile)</h3>
+
 소스 코드 
-<br>https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit
+
+<br>Original :https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Original_ver
+<br>English: https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/English_ver
+<br>Lite : https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Lite_ver
+<br>Mobile : https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Moblie_ver
