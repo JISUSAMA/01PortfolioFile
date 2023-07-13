@@ -33,6 +33,8 @@
 동작인식 센서를 통해 사람의 손동작을 인식 및 입력하는 기술을 적용하여 30초동안 10개의 게임이 진행되는 새로운 방식의 모션 캐쥬얼 게임
 <details>
 <summary> 보자마자 Play2 리얼모션 게임 이미지</summary>
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/d5846b6b-4a56-494c-8a9c-8ea18f8c1a83" width="600" height="300">
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/6f714e68-b1d8-4c07-850b-15d810bd70e7" width="600" height="300" >
 </details>
 
 <!---------- 보자마자 피트니스 ---------->
