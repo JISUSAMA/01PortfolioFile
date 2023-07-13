@@ -129,15 +129,15 @@
 ## 어메이징 코어 작업 2022.10~2023.03(6개월)
 소스코드:
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/AmazingCore
-<p align="center"><details>
-<p align="center">
+<details>
 <summary> 어메이징 코어 게임 이미지 </summary>
+<p align="center">
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/686f2298-65f4-4c00-9345-b18be4113883">
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/589f075f-e0e8-4c55-a4bf-36c4dc1e0159">
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/cd1ad5af-1513-40e6-9812-94716e094ba7">
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/bfeb97fd-f5b2-45da-bbfc-08e03c01eac9">
 </p>
-</details></p>
+</details>
 <!------------------------------------------------------------------------------------------------>
 <!-- 보자마자 케어 -->
 
@@ -157,14 +157,14 @@
 
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/0cddc78d-200d-4fef-a926-a81af61da662">
 
-<br>
+<br><br>
 <details>
 <summary> 보자마자 브레인 게임 이미지 </summary>
 <p align="center">
 <img src="" width="600" height="300">
 </p>
 </details>
-<br><br>
+<br>
 소스 코드 :
 <br>Original :https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Original_ver
 <br>English: https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/English_ver
