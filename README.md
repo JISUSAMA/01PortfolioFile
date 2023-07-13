@@ -1,6 +1,6 @@
 
 # (주)Gateways 진행 프로젝트
-<p align="center"><img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/91590849-bf83-467b-af53-e5f5f6c27196">
+<p align="center"><img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/91590849-bf83-467b-af53-e5f5f6c27196"></p>
 <p>http://gateways.kr/</p>
 <!------------------------------------------------------------------------------------------------>
 <!---------보자마자 Play 2------------->
@@ -15,12 +15,12 @@
 
 <details>
 <summary> 보자마자 Play2 인게임 이미지 </summary>
-
-![화면 캡처 2023-03-15 084159](https://user-images.githubusercontent.com/38304918/225186471-ada6bcce-e0bf-4c01-99f6-d2810922fb8c.png){: width="300" height="300"){: .center}
-![화면 캡처 2023-03-15 084545](https://user-images.githubusercontent.com/38304918/225186482-c0c77481-0a8f-4ada-8ebe-3c92ff8d4b01.png)
-![화면 캡처 2023-03-15 084636](https://user-images.githubusercontent.com/38304918/225186490-060bb3e0-7664-40db-9c0a-2f8eb7090a74.png)
-![화면 캡처 2023-03-15 084704](https://user-images.githubusercontent.com/38304918/225186493-fff84767-fb0d-4b03-9f51-4404d49cd176.png)
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/38304918/225186471-ada6bcce-e0bf-4c01-99f6-d2810922fb8c.png">
+<img src="https://user-images.githubusercontent.com/38304918/225186482-c0c77481-0a8f-4ada-8ebe-3c92ff8d4b01.png">
+<img src="https://user-images.githubusercontent.com/38304918/225186490-060bb3e0-7664-40db-9c0a-2f8eb7090a74.png">
+<img src="https://user-images.githubusercontent.com/38304918/225186493-fff84767-fb0d-4b03-9f51-4404d49cd176.png">
+</p>
 </details>
 <!------------------------------------------------------------------------------------------------>
 <!-- 보자마자 Play2 리얼모션 -->
@@ -37,10 +37,12 @@
 </details>
 <!------------------------------------------------------------------------------------------------>
 <!---------- 보자마자 피트니스 ---------->
+***
 <h3>보자마자 피트니스</h3>
 ![화면 캡처 2023-03-15 145251](https://user-images.githubusercontent.com/38304918/225229355-4aa8557f-f861-438a-84d7-18f45a5374f8.png)
 
 <!------------------------------------------------------------------------------------------------>
+***
 <!-- 런투더 문  -->
 <h3>RunToTheMoon 2021.08~2022.12(1년 5개월)</h3>
 <details>
@@ -62,6 +64,7 @@
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/RunToTheMoon
 
 <!------------------------------------------------------------------------------------------------>
+***
 <!---사이클링 투어/ 시티투어 부산-------->
 <h3>사이클링 투어/ 시티투어 부산</h3>
 기존 프로젝트 리딩 작업 후, 영문 버전 수정 작업을 진행
@@ -85,6 +88,7 @@
 ![KakaoTalk_20230705_093227046](https://github.com/JISUSAMA/UnityStudy/assets/38304918/44ad1bea-f554-45be-a076-e78f1ff8cb51)
 </details>
 <!------------------------------------------------------------------------------------------------>
+***
 <!-- 복천 박물관  -->
 <!-- 2021.09 ~ 2021.12.10 -->
 <h3>복천박물관_복둥이의 시간여행 2021.09~2021.12(4개월)</h3>
@@ -104,6 +108,7 @@
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/JBListen
 
 <!------------------------------------------------------------------------------------------------>
+***
 <!-- 어메이징 코어 -->
 <!-- 2022.10.17 ~ 2022.11.15 -->
 <h3>어메이징 코어 작업 2022.10~2023.03(6개월)</h3>
@@ -111,6 +116,7 @@
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/AmazingCore
 
 <!------------------------------------------------------------------------------------------------>
+***
 <!-- 보자마자 케어 -->
 <h3>보자마자 케어</h3>
 보자마자 케어와 보자마자 브레인은 어르신들을 위해 터치 스크린과 동작인식을 활용해 치매예방, 뇌훈련, 근력강화 체조 등 체력증진 및 인지능력 향상을 도와주고 안면인식을 통한 편리한 사용자 구분 및 스케쥴관리 등을 제공하는 최상의 건강관리 서비스
@@ -127,4 +133,3 @@
 <br>Lite : https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Lite_ver
 <br>Mobile : https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Moblie_ver
 <!------------------------------------------------------------------------------------------------>
-</p>
