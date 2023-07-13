@@ -25,6 +25,7 @@
 
 <!-- 보자마자 Play2 리얼모션 -->
 ## 보자마자 Play2 리얼모션 2021.06~2021.08(3개월)
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/a4dedaba-66ed-419c-8abe-d018717c8d54"  width="100%" height="100%" >
 소스 코드 : 
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/Mobile  
 <br>
