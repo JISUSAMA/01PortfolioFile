@@ -11,8 +11,7 @@
 
 <img src="https://user-images.githubusercontent.com/38304918/225186471-ada6bcce-e0bf-4c01-99f6-d2810922fb8c.png" width="100%" height="100%">
 
-소스 코드
-<br>https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/Mobile
+
 <details>
 <summary> 보자마자 Play2 인게임 이미지 </summary>
 <br>
@@ -23,7 +22,9 @@
 <img src="https://user-images.githubusercontent.com/38304918/225186493-fff84767-fb0d-4b03-9f51-4404d49cd176.png" width="600" height="300">
 </p>
 </details>
-
+<br><br>
+소스 코드
+<br>https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/Mobile
 <!-- 보자마자 Play2 리얼모션 -->
 ## 보자마자 Play2 리얼모션 2021.06~2021.08(3개월)
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/48b21147-805a-4f07-89f5-02d4db7eb1da"  width="100%" height="100%" >
@@ -55,6 +56,7 @@
 <!-- 런투더 문  -->
 ## RunToTheMoon 2021.08~2022.12(1년 5개월)
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/3970a4ac-0036-4b12-b584-26554032f1aa" >
+<br>
 <details>
 <summary> 런투더문 게임 이미지 </summary>
 <p align="center">
@@ -87,9 +89,6 @@
 ### 시티투어 부산 2023.01.2023.07(7개월)
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/af82dfde-007c-42e4-ba8c-84c29caeea51">
 
-소스코드: 
-<br>https://github.com/JISUSAMA/GatewaysProject/tree/main/CITY_TURE_BUSAN
-
 <details>
 <summary> 시티투어 부산(그린/레드) 게임 이미지 </summary>
 <p align="center">
@@ -99,6 +98,10 @@
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/44ad1bea-f554-45be-a076-e78f1ff8cb51" width="600" height="300">
 <p>
 </details>
+<br><br>
+소스코드: 
+<br>https://github.com/JISUSAMA/GatewaysProject/tree/main/CITY_TURE_BUSAN
+
 
 <!-- 복천 박물관  -->
 <!-- 2021.09 ~ 2021.12.10 -->
@@ -106,7 +109,7 @@
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/644a1070-0fce-4400-9f48-bc01172e68c4">
 <br> 복천 박물관에서 진행 되고 있는 3개의 AR 컨텐츠 중 1개
 복천 박물관 야외 전시관에서 플레이 할 수 있는 AR 컨텐츠로 게임 스토리를 진행 하면서 같은 이미지 유물을 발견 했을 경우 다음으로 진행 되는 형식의 게임
-
+<br><br>
 소스 코드:
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/TimeTravel
 
@@ -138,11 +141,11 @@
 ## 보자마자 케어
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/3da5ce64-0774-49fb-bb65-edd512543070">
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/8ad17a09-6c01-4550-85d5-7f9837caf53b">
-<br>
+<br><br>
 보자마자 케어와 보자마자 브레인은 어르신들을 위해 터치 스크린과 동작인식을 활용해 치매예방, 뇌훈련, 근력강화 체조 등 체력증진 및 인지능력 향상을 도와주고 안면인식을 통한 편리한 사용자 구분 및 스케쥴관리 등을 제공하는 최상의 건강관리 서비스
 <br>
 기본적으로 터치 게임 형식의 뇌훈련, 치매예방이 있고 립모션을 이용한 손게임 그리고 키넥트를 활용한 치매 예방체조로 구성 되어있습니다.
-<br>
+<br><br>
 소스 코드:  
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaCare
 
@@ -150,9 +153,14 @@
 ## 보자마자 브레인(Original,English,Lite,Mobile)
 
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/0cddc78d-200d-4fef-a926-a81af61da662">
-<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/9fc3342e-2f27-477e-9e7b-d3941c9cc74e">
-<br>
 
+<br>
+<summary> 보자마자 브레인 게임 이미지 </summary>
+<p align="center">
+<img src="" width="600" height="300">
+</p>
+</details>
+<br><br>
 소스 코드 :
 <br>Original :https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Original_ver
 <br>English: https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/English_ver
