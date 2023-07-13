@@ -42,10 +42,11 @@
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/6f714e68-b1d8-4c07-850b-15d810bd70e7" width="600" height="300" >
 </P>
 </details>
-<br>
+
 소스 코드 : 
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/Mobile  
 <!---------- 보자마자 피트니스 ---------->
+
 ## 보자마자 피트니스
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/9a3fef1f-941c-46a3-ba23-500da2c3a140" width="100%" height="100%">
 <br>
@@ -82,6 +83,8 @@
 
 <!-- 사이클링 투어  -->
 ### 사이클링 투어 2022.08~2023.01(6개월)
+
+<br>
 소스코드:
 
 <!-- 시티투어 부산  -->
