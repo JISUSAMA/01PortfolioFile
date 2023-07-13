@@ -3,9 +3,10 @@
 <p align="center"><img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/91590849-bf83-467b-af53-e5f5f6c27196"></p>
 <p align="center">http://gateways.kr/
 
+
+
 <!---------보자마자 Play 2------------->
 <!-- 보자마자 Play2  -->
-
 ## 보자마자 Play2 2020.11~2021.06(8개월)
 
 <img src="https://user-images.githubusercontent.com/38304918/225186471-ada6bcce-e0bf-4c01-99f6-d2810922fb8c.png">
@@ -35,7 +36,7 @@
 
 <!---------- 보자마자 피트니스 ---------->
 ## 보자마자 피트니스
-<img src="https://user-images.githubusercontent.com/38304918/225229355-4aa8557f-f861-438a-84d7-18f45a5374f8.png">
+<img src="https://user-images.githubusercontent.com/38304918/225229355-4aa8557f-f861-438a-84d7-18f45a5374f8.png" width="100%", hight="100%";>
 
 <!------------------------------------------------------------------------------------------------>
 <!-- 런투더 문  -->
