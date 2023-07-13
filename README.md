@@ -22,22 +22,19 @@
 <img src="https://user-images.githubusercontent.com/38304918/225186493-fff84767-fb0d-4b03-9f51-4404d49cd176.png" width="600" height="300">
 </p>
 </details>
-<br><br>
+<br>
 소스 코드
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/Mobile
+
 <!-- 보자마자 Play2 리얼모션 -->
 ## 보자마자 Play2 리얼모션 2021.06~2021.08(3개월)
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/48b21147-805a-4f07-89f5-02d4db7eb1da"  width="100%" height="100%" >
-소스 코드 : 
-<br>https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/Mobile  
-
 
 모션인식 기반 캐쥬얼 게임!<br>
 동작인식 센서를 통해 사람의 손동작을 인식 및 입력하는 기술을 적용하여 30초동안 10개의 게임이 진행되는 새로운 방식의 모션 캐쥬얼 게임
 <br>
 <details>
-<summary> 보자마자 Play2 리얼모션 게임 이미지</summary>
-<br>
+<summary> 보자마자 Play2 리얼모션 게임 이미지</summary><br>
 <p align ="center">
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/91d70851-9915-4fe0-81ef-8f4a0a7f351f" width="600" height="300">
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/e0477402-35bb-4a82-bebf-92642c5b31aa" width="600" height="300">
@@ -45,7 +42,9 @@
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/6f714e68-b1d8-4c07-850b-15d810bd70e7" width="600" height="300" >
 </P>
 </details>
-
+<br>
+소스 코드 : 
+<br>https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/Mobile  
 <!---------- 보자마자 피트니스 ---------->
 ## 보자마자 피트니스
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/9a3fef1f-941c-46a3-ba23-500da2c3a140" width="100%" height="100%">
@@ -155,6 +154,7 @@
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/0cddc78d-200d-4fef-a926-a81af61da662">
 
 <br>
+<details>
 <summary> 보자마자 브레인 게임 이미지 </summary>
 <p align="center">
 <img src="" width="600" height="300">
