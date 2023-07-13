@@ -15,6 +15,7 @@
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/Mobile
 <details>
 <summary> 보자마자 Play2 인게임 이미지 </summary>
+<br>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/38304918/225186471-ada6bcce-e0bf-4c01-99f6-d2810922fb8c.png" width="600" height="300">
 <img src="https://user-images.githubusercontent.com/38304918/225186482-c0c77481-0a8f-4ada-8ebe-3c92ff8d4b01.png" width="600" height="300" >
@@ -35,6 +36,7 @@
 <br>
 <details>
 <summary> 보자마자 Play2 리얼모션 게임 이미지</summary>
+<br>
 <p align ="center">
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/91d70851-9915-4fe0-81ef-8f4a0a7f351f" width="600" height="300">
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/e0477402-35bb-4a82-bebf-92642c5b31aa" width="600" height="300">
@@ -134,15 +136,23 @@
 <!-- 보자마자 케어 -->
 
 ## 보자마자 케어
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/3da5ce64-0774-49fb-bb65-edd512543070">
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/8ad17a09-6c01-4550-85d5-7f9837caf53b">
+<br>
 보자마자 케어와 보자마자 브레인은 어르신들을 위해 터치 스크린과 동작인식을 활용해 치매예방, 뇌훈련, 근력강화 체조 등 체력증진 및 인지능력 향상을 도와주고 안면인식을 통한 편리한 사용자 구분 및 스케쥴관리 등을 제공하는 최상의 건강관리 서비스
 <br>
 기본적으로 터치 게임 형식의 뇌훈련, 치매예방이 있고 립모션을 이용한 손게임 그리고 키넥트를 활용한 치매 예방체조로 구성 되어있습니다.
-
+<br>
 소스 코드:  
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaCare
 
 <!--보자마자 브레인 -->
 ## 보자마자 브레인(Original,English,Lite,Mobile)
+
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/0cddc78d-200d-4fef-a926-a81af61da662">
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/9fc3342e-2f27-477e-9e7b-d3941c9cc74e">
+<br>
+
 소스 코드 :
 <br>Original :https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Original_ver
 <br>English: https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/English_ver
