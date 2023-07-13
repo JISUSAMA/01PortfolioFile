@@ -36,7 +36,7 @@
 
 <!---------- 보자마자 피트니스 ---------->
 ## 보자마자 피트니스
-<img src="https://user-images.githubusercontent.com/38304918/225229355-4aa8557f-f861-438a-84d7-18f45a5374f8.png" width="100%" height="100%">
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/9a3fef1f-941c-46a3-ba23-500da2c3a140" width="100%" height="100%">
 
 <!------------------------------------------------------------------------------------------------>
 <!-- 런투더 문  -->
@@ -109,7 +109,15 @@
 ## 어메이징 코어 작업 2022.10~2023.03(6개월)
 #### 소스코드:
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/AmazingCore
-
+<details>
+<summary> 어메이징 코어 인게임 이미지 </summary>
+<p align="center">
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/686f2298-65f4-4c00-9345-b18be4113883">
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/589f075f-e0e8-4c55-a4bf-36c4dc1e0159">
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/cd1ad5af-1513-40e6-9812-94716e094ba7">
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/bfeb97fd-f5b2-45da-bbfc-08e03c01eac9">
+</p>
+</details>
 <!------------------------------------------------------------------------------------------------>
 <!-- 보자마자 케어 -->
 ## 보자마자 케어
