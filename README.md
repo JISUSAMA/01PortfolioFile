@@ -11,7 +11,7 @@
 
 <img src="https://user-images.githubusercontent.com/38304918/225186471-ada6bcce-e0bf-4c01-99f6-d2810922fb8c.png" width="100%" height="100%">
 
-#### 소스 코드
+소스 코드
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/Mobile
 <details>
 <summary> 보자마자 Play2 인게임 이미지 </summary>
@@ -25,7 +25,7 @@
 
 <!-- 보자마자 Play2 리얼모션 -->
 ## 보자마자 Play2 리얼모션 2021.06~2021.08(3개월)
-<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/a4dedaba-66ed-419c-8abe-d018717c8d54"  width="100%" height="100%" >
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/48b21147-805a-4f07-89f5-02d4db7eb1da"  width="100%" height="100%" >
 소스 코드 : 
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/Mobile  
 <br>
@@ -33,8 +33,12 @@
 동작인식 센서를 통해 사람의 손동작을 인식 및 입력하는 기술을 적용하여 30초동안 10개의 게임이 진행되는 새로운 방식의 모션 캐쥬얼 게임
 <details>
 <summary> 보자마자 Play2 리얼모션 게임 이미지</summary>
+<p align ="center">
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/91d70851-9915-4fe0-81ef-8f4a0a7f351f" width="600" height="300">
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/e0477402-35bb-4a82-bebf-92642c5b31aa" width="600" height="300">
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/d5846b6b-4a56-494c-8a9c-8ea18f8c1a83" width="600" height="300">
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/6f714e68-b1d8-4c07-850b-15d810bd70e7" width="600" height="300" >
+</P>
 </details>
 
 <!---------- 보자마자 피트니스 ---------->
@@ -42,6 +46,7 @@
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/9a3fef1f-941c-46a3-ba23-500da2c3a140" width="100%" height="100%">
 <br>
 보자마자 피트니스는 러닝, 사이클, 밸런스보드 등 대표적인 실내 운동기구와 실감형 게임 콘텐츠의 접목 및 모든 운동기구에 적용이 가능한 센서를 통해 다양한 피트니스 게임을 즐길 수 있게 개발되었습니다.
+
 <!------------------------------------------------------------------------------------------------>
 <!-- 런투더 문  -->
 ## RunToTheMoon 2021.08~2022.12(1년 5개월)
@@ -76,7 +81,8 @@
 
 <!-- 시티투어 부산  -->
 ### 시티투어 부산 2023.01.2023.07(7개월)
-![KakaoTalk_20230703_142850754](https://github.com/JISUSAMA/UnityStudy/assets/38304918/af82dfde-007c-42e4-ba8c-84c29caeea51)
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/af82dfde-007c-42e4-ba8c-84c29caeea51">
+
 소스코드: 
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/CITY_TURE_BUSAN
 
