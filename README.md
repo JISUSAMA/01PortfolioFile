@@ -131,7 +131,7 @@
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/AmazingCore
 <details>
 <p align="center">
-<summary> 어메이징 코어 게임 이미지 </summary>
+<summary text-align="center"> 어메이징 코어 게임 이미지 </summary>
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/686f2298-65f4-4c00-9345-b18be4113883">
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/589f075f-e0e8-4c55-a4bf-36c4dc1e0159">
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/cd1ad5af-1513-40e6-9812-94716e094ba7">
