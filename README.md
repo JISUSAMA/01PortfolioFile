@@ -50,16 +50,17 @@
 ## 보자마자 피트니스
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/9a3fef1f-941c-46a3-ba23-500da2c3a140" width="100%" height="100%">
 <br>
+<br>
 보자마자 피트니스는 러닝, 사이클, 밸런스보드 등 대표적인 실내 운동기구와 실감형 게임 콘텐츠의 접목 및 모든 운동기구에 적용이 가능한 센서를 통해 다양한 피트니스 게임을 즐길 수 있게 개발되었습니다.
 
 <!------------------------------------------------------------------------------------------------>
 <!-- 런투더 문  -->
 ## RunToTheMoon 2021.08~2022.12(1년 5개월)
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/3970a4ac-0036-4b12-b584-26554032f1aa" >
-<br>
+<br><br>
 <details>
-<summary> 런투더문 게임 이미지 </summary>
 <p align="center">
+<summary> 런투더문 게임 이미지 </summary>
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/af45319b-e99e-41dc-a1d0-74639160dbb7" >
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/f9d954be-6c5e-4983-a506-4db62a947a4e" >
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/b7c354ab-b79b-4b66-8238-bd0931d3f480" >
@@ -92,8 +93,8 @@
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/af82dfde-007c-42e4-ba8c-84c29caeea51">
 
 <details>
-<summary> 시티투어 부산(그린/레드) 게임 이미지 </summary>
 <p align="center">
+<summary> 시티투어 부산(그린/레드) 게임 이미지 </summary>
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/05039c53-4155-4734-870a-e9fed2e986a4" width="600" height="300">
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/02f7c266-812f-48c8-a5ad-8cf8458e06c0" width="600" height="300">
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/32d650e9-580d-4adf-b84d-967fe733af64" width="600" height="300">
@@ -119,7 +120,7 @@
 <!-- 2022.06.22 ~ 2022.07.22   -->
 ## JBLisen 전북 설문조사 데모 앱 제작 2022.06~2022.06(1개월)
 <img src="https://user-images.githubusercontent.com/38304918/225776910-c33a10bc-4407-4d13-bea0-45cdc022180c.jpg">
-
+<br><br>
 소스코드:
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/JBListen
 
@@ -129,8 +130,8 @@
 소스코드:
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/AmazingCore
 <details>
-<summary> 어메이징 코어 게임 이미지 </summary>
 <p align="center">
+<summary> 어메이징 코어 게임 이미지 </summary>
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/686f2298-65f4-4c00-9345-b18be4113883">
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/589f075f-e0e8-4c55-a4bf-36c4dc1e0159">
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/cd1ad5af-1513-40e6-9812-94716e094ba7">
