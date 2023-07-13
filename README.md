@@ -44,10 +44,11 @@
 <details>
 <summary> 런투더문 게임 이미지 </summary>
 <p align="center">
-<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/3970a4ac-0036-4b12-b584-26554032f1aa" width="600" height="300">
-<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/af45319b-e99e-41dc-a1d0-74639160dbb7" width="600" height="300">
-<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/f9d954be-6c5e-4983-a506-4db62a947a4e"width="600" height="300" >
-<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/b7c354ab-b79b-4b66-8238-bd0931d3f480" width="600" height="300">
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/3970a4ac-0036-4b12-b584-26554032f1aa" >
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/af45319b-e99e-41dc-a1d0-74639160dbb7" >
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/f9d954be-6c5e-4983-a506-4db62a947a4e" >
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/b7c354ab-b79b-4b66-8238-bd0931d3f480" >
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/b7c354ab-b79b-4b66-8238-bd0931d3f480" >
 </p>
 </details>
 
@@ -78,13 +79,11 @@
 
 <details>
 <summary> 시티투어 부산(그린/레드) 인게임 이미지 </summary>
-<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/05039c53-4155-4734-870a-e9fed2e986a4">
-<img src="">
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/05039c53-4155-4734-870a-e9fed2e986a4" width="600" height="300">
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/02f7c266-812f-48c8-a5ad-8cf8458e06c0" width="600" height="300">
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/32d650e9-580d-4adf-b84d-967fe733af64" width="600" height="300">
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/44ad1bea-f554-45be-a076-e78f1ff8cb51" width="600" height="300">
 
-![KakaoTalk_20230703_143136212]()
-![KakaoTalk_20230705_083335914](https://github.com/JISUSAMA/UnityStudy/assets/38304918/02f7c266-812f-48c8-a5ad-8cf8458e06c0)
-![KakaoTalk_20230705_083521288](https://github.com/JISUSAMA/UnityStudy/assets/38304918/32d650e9-580d-4adf-b84d-967fe733af64)
-![KakaoTalk_20230705_093227046](https://github.com/JISUSAMA/UnityStudy/assets/38304918/44ad1bea-f554-45be-a076-e78f1ff8cb51)
 </details>
 
 <!-- 복천 박물관  -->
