@@ -1,9 +1,8 @@
 
 # (주)Gateways 진행 프로젝트
-![1](https://github.com/JISUSAMA/UnityStudy/assets/38304918/91590849-bf83-467b-af53-e5f5f6c27196)
-http://gateways.kr/
-<p align="center"><img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/91590849-bf83-467b-af53-e5f5f6c27196"  width="100%" height="300"></p>
 
+<p align="center"><img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/91590849-bf83-467b-af53-e5f5f6c27196"></p>
+<p>http://gateways.kr/</p>
 <!------------------------------------------------------------------------------------------------>
 <!---------보자마자 Play 2------------->
 <!-- 보자마자 Play2  -->
