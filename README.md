@@ -1,7 +1,6 @@
 
 # (주)Gateways 진행 프로젝트
-
-<p align="center"><img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/91590849-bf83-467b-af53-e5f5f6c27196"></p>
+<p align="center"><img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/91590849-bf83-467b-af53-e5f5f6c27196">
 <p>http://gateways.kr/</p>
 <!------------------------------------------------------------------------------------------------>
 <!---------보자마자 Play 2------------->
@@ -128,3 +127,4 @@
 <br>Lite : https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Lite_ver
 <br>Mobile : https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Moblie_ver
 <!------------------------------------------------------------------------------------------------>
+</p>
