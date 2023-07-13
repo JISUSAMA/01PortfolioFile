@@ -22,7 +22,7 @@
 <img src="https://user-images.githubusercontent.com/38304918/225186493-fff84767-fb0d-4b03-9f51-4404d49cd176.png" width="600" height="300">
 </p>
 </details>
-<br>
+
 소스 코드
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/Mobile
 
