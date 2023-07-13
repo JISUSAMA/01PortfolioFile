@@ -101,7 +101,7 @@
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/44ad1bea-f554-45be-a076-e78f1ff8cb51" width="600" height="300">
 <p>
 </details>
-<br><br>
+<br>
 소스코드: 
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/CITY_TURE_BUSAN
 
@@ -127,8 +127,9 @@
 <!-- 어메이징 코어 -->
 <!-- 2022.10.17 ~ 2022.11.15 -->
 ## 어메이징 코어 작업 2022.10~2023.03(6개월)
-소스코드:
-<br>https://github.com/JISUSAMA/GatewaysProject/tree/main/AmazingCore
+
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/e2b006af-7797-4e03-9ee4-4c868043d0a6">
+
 <details>
 <summary> 어메이징 코어 게임 이미지 </summary>
 <p align="center">
@@ -138,6 +139,9 @@
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/bfeb97fd-f5b2-45da-bbfc-08e03c01eac9">
 </p>
 </details>
+<br>
+소스코드:
+<br>https://github.com/JISUSAMA/GatewaysProject/tree/main/AmazingCore
 <!------------------------------------------------------------------------------------------------>
 <!-- 보자마자 케어 -->
 
@@ -154,10 +158,8 @@
 
 <!--보자마자 브레인 -->
 ## 보자마자 브레인(Original,English,Lite,Mobile)
-
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/0cddc78d-200d-4fef-a926-a81af61da662">
-
-<br><br>
+<br>
 <details>
 <summary> 보자마자 브레인 게임 이미지 </summary>
 <p align="center">
