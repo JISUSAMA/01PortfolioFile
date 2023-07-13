@@ -28,9 +28,11 @@
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/48b21147-805a-4f07-89f5-02d4db7eb1da"  width="100%" height="100%" >
 소스 코드 : 
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/Mobile  
-<br>
+
+
 모션인식 기반 캐쥬얼 게임!<br>
 동작인식 센서를 통해 사람의 손동작을 인식 및 입력하는 기술을 적용하여 30초동안 10개의 게임이 진행되는 새로운 방식의 모션 캐쥬얼 게임
+<br>
 <details>
 <summary> 보자마자 Play2 리얼모션 게임 이미지</summary>
 <p align ="center">
