@@ -6,8 +6,8 @@
 <!---------보자마자 Play 2------------->
 <!-- 보자마자 Play2  -->
 
-## 보자마자 Play2
-2020.11~2021.06(8개월)
+## 보자마자 Play2 2020.11~2021.06(8개월)
+
 <img src="https://user-images.githubusercontent.com/38304918/225186471-ada6bcce-e0bf-4c01-99f6-d2810922fb8c.png">
 
 소스 코드
@@ -77,7 +77,10 @@
 
 <details>
 <summary> 시티투어 부산(그린/레드) 인게임 이미지 </summary>
-![KakaoTalk_20230703_143136212](https://github.com/JISUSAMA/UnityStudy/assets/38304918/05039c53-4155-4734-870a-e9fed2e986a4)
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/05039c53-4155-4734-870a-e9fed2e986a4">
+<img src="">
+
+![KakaoTalk_20230703_143136212]()
 ![KakaoTalk_20230705_083335914](https://github.com/JISUSAMA/UnityStudy/assets/38304918/02f7c266-812f-48c8-a5ad-8cf8458e06c0)
 ![KakaoTalk_20230705_083521288](https://github.com/JISUSAMA/UnityStudy/assets/38304918/32d650e9-580d-4adf-b84d-967fe733af64)
 ![KakaoTalk_20230705_093227046](https://github.com/JISUSAMA/UnityStudy/assets/38304918/44ad1bea-f554-45be-a076-e78f1ff8cb51)
@@ -102,8 +105,6 @@
 소스코드:
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/JBListen
 
-<!------------------------------------------------------------------------------------------------>
-***
 <!-- 어메이징 코어 -->
 <!-- 2022.10.17 ~ 2022.11.15 -->
 ## 어메이징 코어 작업 2022.10~2023.03(6개월)
@@ -111,7 +112,6 @@
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/AmazingCore
 
 <!------------------------------------------------------------------------------------------------>
-***
 <!-- 보자마자 케어 -->
 ## 보자마자 케어
 보자마자 케어와 보자마자 브레인은 어르신들을 위해 터치 스크린과 동작인식을 활용해 치매예방, 뇌훈련, 근력강화 체조 등 체력증진 및 인지능력 향상을 도와주고 안면인식을 통한 편리한 사용자 구분 및 스케쥴관리 등을 제공하는 최상의 건강관리 서비스
