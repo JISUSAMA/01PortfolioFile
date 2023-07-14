@@ -150,7 +150,7 @@
 <br>
 기본적으로 터치 게임 형식의 뇌훈련, 치매예방이 있고 립모션을 이용한 손게임 그리고 키넥트를 활용한 치매 예방체조로 구성 되어있습니다.
 <br>
-
+<br>
 
 [보자마자 케어 Github 소스코드](https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaCare, "소스코드")
 
