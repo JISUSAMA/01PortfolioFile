@@ -160,7 +160,7 @@
 
 <!--보자마자 브레인 -->
 ## 보자마자 브레인(Original,English,Lite,Mobile)
-<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/0cddc78d-200d-4fef-a926-a81af61da662">
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/e9ae1003-d13a-4028-b1e7-14179ecb6f21">
 <br>
 <details>
 <summary> 보자마자 브레인 게임 이미지 </summary>
@@ -196,3 +196,14 @@
     * 순서 x 목록
 + 순서 x 목록
     + 순서 x 목록
+
+**텍스트 굵게**
+__텍스트 굵게__
+
+*텍스트 기울임*
+_텍스트 기울임_
+
+***텍스트 굵게/기울임***
+___텍스트 굵게/기울임___
+
+
