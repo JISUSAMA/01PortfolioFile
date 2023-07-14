@@ -98,7 +98,7 @@
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/02f7c266-812f-48c8-a5ad-8cf8458e06c0" width="600" height="300">
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/32d650e9-580d-4adf-b84d-967fe733af64" width="600" height="300">
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/44ad1bea-f554-45be-a076-e78f1ff8cb51" width="600" height="300">
-<p>
+</p>
 </details>
 <br>
 
