@@ -23,8 +23,7 @@
 </p>
 </details>
 
-소스 코드
-<br>https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/Mobile
+[ 보자마자 Play2 Github](https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/Mobile, "소스코드") 
 
 <!-- 보자마자 Play2 리얼모션 -->
 ## 보자마자 Play2 리얼모션 2021.06~2021.08(3개월)
@@ -43,8 +42,8 @@
 </P>
 </details>
 
-소스 코드 : 
-<br>https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/Mobile  
+[ 보자마자 Play2 Github](https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/RealMotion, "소스코드") 
+
 <!---------- 보자마자 피트니스 ---------->
 
 ## 보자마자 피트니스
@@ -70,14 +69,14 @@
 
 <!-- 런투더문 한글  -->
 ### RunToTheMoon - KR
-소스 코드 :
-<br>https://github.com/JISUSAMA/GatewaysProject/tree/main/RunToTheMoon
+
+[RunToTheMoon - KR Github](https://github.com/JISUSAMA/GatewaysProject/tree/main/RunToTheMoon, "소스코드") 
 
 <!-- 런투더문 영문  -->
 <!-- 2021.05.10 ~ 2021.07.15 -->
 ### RunToTheMoon - EN
-소스 코드 :
-<br>https://github.com/JISUSAMA/GatewaysProject/tree/main/RunToTheMoon
+
+[RunToTheMoon - EN Github](https://github.com/JISUSAMA/GatewaysProject/tree/main/RunToTheMoon, "소스코드") 
 
 <!---사이클링 투어/ 시티투어 부산-------->
 ## 사이클링 투어/ 시티투어 부산
@@ -85,11 +84,9 @@
 
 <!-- 사이클링 투어  -->
 ### 사이클링 투어 2022.08~2023.01(6개월)
-
 <br>
-소스코드:
-<br>https://github.com/JISUSAMA/GatewaysProject/tree/main/CYCLING_TOUR
 
+[사이클링 투어 Github](https://github.com/JISUSAMA/GatewaysProject/tree/main/CYCLING_TOUR, "소스코드") 
 <!-- 시티투어 부산  -->
 ### 시티투어 부산 2023.01.2023.07(7개월)
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/af82dfde-007c-42e4-ba8c-84c29caeea51">
@@ -104,27 +101,26 @@
 <p>
 </details>
 <br>
-소스코드: 
-<br>https://github.com/JISUSAMA/GatewaysProject/tree/main/CITY_TURE_BUSAN
 
+[복둥이의 시간여행 Github](https://github.com/JISUSAMA/GatewaysProject/tree/main/CITY_TURE_BUSAN, "소스코드") 
 
 <!-- 복천 박물관  -->
 <!-- 2021.09 ~ 2021.12.10 -->
 ## 복천박물관_복둥이의 시간여행 2021.09~2021.12(4개월)
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/644a1070-0fce-4400-9f48-bc01172e68c4">
-<br> 복천 박물관에서 진행 되고 있는 3개의 AR 컨텐츠 중 1개
+
+복천 박물관에서 진행 되고 있는 3개의 AR 컨텐츠 중 1개
 복천 박물관 야외 전시관에서 플레이 할 수 있는 AR 컨텐츠로 게임 스토리를 진행 하면서 같은 이미지 유물을 발견 했을 경우 다음으로 진행 되는 형식의 게임
-<br><br>
-소스 코드:
-<br>https://github.com/JISUSAMA/GatewaysProject/tree/main/TimeTravel
+
+[복둥이의 시간여행 Github](https://github.com/JISUSAMA/GatewaysProject/tree/main/TimeTravel, "소스코드") 
 
 <!-- JBLisen 전북 설문조사 데모 앱 -->
 <!-- 2022.06.22 ~ 2022.07.22   -->
 ## JBLisen 전북 설문조사 데모 앱 제작 2022.06~2022.06(1개월)
 <img src="https://user-images.githubusercontent.com/38304918/225776910-c33a10bc-4407-4d13-bea0-45cdc022180c.jpg">
 <br><br>
-소스코드:
-<br>https://github.com/JISUSAMA/GatewaysProject/tree/main/JBListen
+
+[JBLisen Github](https://github.com/JISUSAMA/GatewaysProject/tree/main/JBListen, "소스코드") 
 
 <!-- 어메이징 코어 -->
 <!-- 2022.10.17 ~ 2022.11.15 -->
@@ -141,9 +137,8 @@
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/bfeb97fd-f5b2-45da-bbfc-08e03c01eac9">
 </p>
 </details>
-<br>
-소스코드:
-<br>https://github.com/JISUSAMA/GatewaysProject/tree/main/AmazingCore
+
+[어메이징 코어 Github](https://github.com/JISUSAMA/GatewaysProject/tree/main/AmazingCore, "소스코드") 
 
 <!-- 보자마자 케어 -->
 
@@ -154,28 +149,25 @@
 보자마자 케어와 보자마자 브레인은 어르신들을 위해 터치 스크린과 동작인식을 활용해 치매예방, 뇌훈련, 근력강화 체조 등 체력증진 및 인지능력 향상을 도와주고 안면인식을 통한 편리한 사용자 구분 및 스케쥴관리 등을 제공하는 최상의 건강관리 서비스
 <br>
 기본적으로 터치 게임 형식의 뇌훈련, 치매예방이 있고 립모션을 이용한 손게임 그리고 키넥트를 활용한 치매 예방체조로 구성 되어있습니다.
-<br><br>
-소스 코드:  
-<br>https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaCare
+<br>
+
+[보자마자 케어](https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaCare, "소스코드")
 
 <!--보자마자 브레인 -->
 ## 보자마자 브레인 (Original,English,Lite,Mobile)
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/e9ae1003-d13a-4028-b1e7-14179ecb6f21">
 
-소스 코드 :
-보자마자 브레인:https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Original_ver
+[보자마자 브레인 Github](https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Original_ver, "소스코드")
 
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/03545d58-2fd6-44bc-930c-825500cb743d">
 
-소스 코드 :
-Bojamaja Brain: https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/English_ver
+
+[Bojamaja Brain Github](https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/English_ver, "소스코드")
 
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/03545d58-2fd6-44bc-930c-825500cb743d">
 
-소스 코드 :
-보자마자 브레인 LITE: https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Lite_ver
+[보자마자 브레인 LITE Github](https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Lite_ver, "소스코드")
 
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/03545d58-2fd6-44bc-930c-825500cb743d">
 
-소스 코드 :
-보자마자 브레인 Mobile : https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Moblie_ver
+[보자마자 브레인 Mobile Github](https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Moblie_ver, "소스코드")
