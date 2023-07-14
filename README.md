@@ -176,11 +176,8 @@
 <br>Mobile : https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Moblie_ver
 <!------------------------------------------------------------------------------------------------>
 
-`StopCoroutine(_DrawLine_Start())`
-`StartCoroutine(_DrawLine_Start())`
+링크: <https://j2su0218.tistory.com>
 
-```
-StopCoroutine(_DrawLine_Start());
-StartCoroutine(_DrawLine_Start());
-```
+링크이름: [저의 티스토리 블로그 입니다요]<https://j2su0218.tistory.com>
 
+링크 설명추가: [저의 티스토리 블로그 입니다요](https://j2su0218.tistory.com,"티스토리 자료")
