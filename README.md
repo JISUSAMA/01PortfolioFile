@@ -176,46 +176,10 @@
 <br>Mobile : https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Moblie_ver
 <!------------------------------------------------------------------------------------------------>
 
-# 샵1
-## 샵2
-### 샵3
-#### 샵4
+'StopCoroutine(_DrawLine_Start()); '
+'StartCoroutine(_DrawLine_Start());'
 
-[Enter] 키를 두 번 눌러서 빈줄을 하나 넣어주면
-
-단락 줄을 쉽게 띄울수 있다.
-
-1. 순서 목록
-2. 순서 목록
-3. 순서 목록
-4. 순서 목록
-
-- 순서 x 목록
-    - 순서 x 목록
-* 순서 x 목록
-    * 순서 x 목록
-+ 순서 x 목록
-    + 순서 x 목록
-
-**텍스트 굵게**
-
-__텍스트 굵게__
-
-*텍스트 기울임*
-
-_텍스트 기울임_
-
-***텍스트 굵게/기울임***
-
-___텍스트 굵게/기울임___
-
-~~텍스트 취소선~~
-
->인용문 1번
->>인용문 1-2번
->>>인용문 1-3번
-
->인용문 2번
-
->인용문 3번
-
+'''
+StopCoroutine(_DrawLine_Start());
+StartCoroutine(_DrawLine_Start());
+'''
