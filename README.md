@@ -144,7 +144,7 @@
 <br>
 소스코드:
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/AmazingCore
-<!------------------------------------------------------------------------------------------------>
+
 <!-- 보자마자 케어 -->
 
 ## 보자마자 케어
@@ -159,19 +159,23 @@
 <br>https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaCare
 
 <!--보자마자 브레인 -->
-## 보자마자 브레인(Original,English,Lite,Mobile)
+## 보자마자 브레인 (Original,English,Lite,Mobile)
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/e9ae1003-d13a-4028-b1e7-14179ecb6f21">
-<br>
-<details>
-<summary> 보자마자 브레인 게임 이미지 </summary>
-<p align="center">
-<img src="" width="600" height="300">
-</p>
-</details>
-<br>
+
 소스 코드 :
-<br>Original :https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Original_ver
-<br>English: https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/English_ver
-<br>Lite : https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Lite_ver
-<br>Mobile : https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Moblie_ver
-<!------------------------------------------------------------------------------------------------>
+보자마자 브레인:https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Original_ver
+
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/03545d58-2fd6-44bc-930c-825500cb743d">
+
+소스 코드 :
+Bojamaja Brain: https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/English_ver
+
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/03545d58-2fd6-44bc-930c-825500cb743d">
+
+소스 코드 :
+보자마자 브레인 LITE: https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Lite_ver
+
+<img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/03545d58-2fd6-44bc-930c-825500cb743d">
+
+소스 코드 :
+보자마자 브레인 Mobile : https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Moblie_ver
