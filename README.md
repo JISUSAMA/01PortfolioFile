@@ -23,7 +23,7 @@
 </p>
 </details>
 
-[ 보자마자 Play2 Github](https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/Mobile, "소스코드") 
+[ 보자마자 Play2 Github 소스코드](https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/Mobile, "소스코드") 
 
 <!-- 보자마자 Play2 리얼모션 -->
 ## 보자마자 Play2 리얼모션 2021.06~2021.08(3개월)
@@ -42,7 +42,7 @@
 </P>
 </details>
 
-[ 보자마자 Play2 Github](https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/RealMotion, "소스코드") 
+[ 보자마자 Play2 Github 소스코드](https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/RealMotion, "소스코드") 
 
 <!---------- 보자마자 피트니스 ---------->
 
@@ -70,13 +70,13 @@
 <!-- 런투더문 한글  -->
 ### RunToTheMoon - KR
 
-[RunToTheMoon - KR Github](https://github.com/JISUSAMA/GatewaysProject/tree/main/RunToTheMoon, "소스코드") 
+[RunToTheMoon - KR Github 소스코드](https://github.com/JISUSAMA/GatewaysProject/tree/main/RunToTheMoon, "소스코드") 
 
 <!-- 런투더문 영문  -->
 <!-- 2021.05.10 ~ 2021.07.15 -->
 ### RunToTheMoon - EN
 
-[RunToTheMoon - EN Github](https://github.com/JISUSAMA/GatewaysProject/tree/main/RunToTheMoon, "소스코드") 
+[RunToTheMoon - EN Github 소스코드](https://github.com/JISUSAMA/GatewaysProject/tree/main/RunToTheMoon, "소스코드") 
 
 <!---사이클링 투어/ 시티투어 부산-------->
 ## 사이클링 투어/ 시티투어 부산
@@ -86,7 +86,7 @@
 ### 사이클링 투어 2022.08~2023.01(6개월)
 <br>
 
-[사이클링 투어 Github](https://github.com/JISUSAMA/GatewaysProject/tree/main/CYCLING_TOUR, "소스코드") 
+[사이클링 투어 Github 소스코드](https://github.com/JISUSAMA/GatewaysProject/tree/main/CYCLING_TOUR, "소스코드") 
 <!-- 시티투어 부산  -->
 ### 시티투어 부산 2023.01.2023.07(7개월)
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/af82dfde-007c-42e4-ba8c-84c29caeea51">
@@ -102,7 +102,7 @@
 </details>
 <br>
 
-[복둥이의 시간여행 Github](https://github.com/JISUSAMA/GatewaysProject/tree/main/CITY_TURE_BUSAN, "소스코드") 
+[복둥이의 시간여행 Github 소스코드](https://github.com/JISUSAMA/GatewaysProject/tree/main/CITY_TURE_BUSAN, "소스코드") 
 
 <!-- 복천 박물관  -->
 <!-- 2021.09 ~ 2021.12.10 -->
@@ -112,7 +112,7 @@
 복천 박물관에서 진행 되고 있는 3개의 AR 컨텐츠 중 1개
 복천 박물관 야외 전시관에서 플레이 할 수 있는 AR 컨텐츠로 게임 스토리를 진행 하면서 같은 이미지 유물을 발견 했을 경우 다음으로 진행 되는 형식의 게임
 
-[복둥이의 시간여행 Github](https://github.com/JISUSAMA/GatewaysProject/tree/main/TimeTravel, "소스코드") 
+[복둥이의 시간여행 Github 소스코드](https://github.com/JISUSAMA/GatewaysProject/tree/main/TimeTravel, "소스코드") 
 
 <!-- JBLisen 전북 설문조사 데모 앱 -->
 <!-- 2022.06.22 ~ 2022.07.22   -->
@@ -120,7 +120,7 @@
 <img src="https://user-images.githubusercontent.com/38304918/225776910-c33a10bc-4407-4d13-bea0-45cdc022180c.jpg">
 <br><br>
 
-[JBLisen Github](https://github.com/JISUSAMA/GatewaysProject/tree/main/JBListen, "소스코드") 
+[JBLisen Github 소스코드](https://github.com/JISUSAMA/GatewaysProject/tree/main/JBListen, "소스코드") 
 
 <!-- 어메이징 코어 -->
 <!-- 2022.10.17 ~ 2022.11.15 -->
@@ -138,7 +138,7 @@
 </p>
 </details>
 
-[어메이징 코어 Github](https://github.com/JISUSAMA/GatewaysProject/tree/main/AmazingCore, "소스코드") 
+[어메이징 코어 Github 소스코드](https://github.com/JISUSAMA/GatewaysProject/tree/main/AmazingCore, "소스코드") 
 
 <!-- 보자마자 케어 -->
 
@@ -157,17 +157,17 @@
 ## 보자마자 브레인 (Original,English,Lite,Mobile)
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/e9ae1003-d13a-4028-b1e7-14179ecb6f21">
 
-[보자마자 브레인 Github](https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Original_ver, "소스코드")
+[보자마자 브레인 Github 소스코드](https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Original_ver, "소스코드")
 
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/03545d58-2fd6-44bc-930c-825500cb743d">
 
 
-[Bojamaja Brain Github](https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/English_ver, "소스코드")
+[Bojamaja Brain Github 소스코드](https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/English_ver, "소스코드")
 
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/03545d58-2fd6-44bc-930c-825500cb743d">
 
-[보자마자 브레인 LITE Github](https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Lite_ver, "소스코드")
+[보자마자 브레인 LITE Github 소스코드](https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Lite_ver, "소스코드")
 
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/03545d58-2fd6-44bc-930c-825500cb743d">
 
-[보자마자 브레인 Mobile Github](https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Moblie_ver, "소스코드")
+[보자마자 브레인 Mobile Github 소스코드](https://github.com/JISUSAMA/GatewaysProject/tree/main/BrainFit/Moblie_ver, "소스코드")
