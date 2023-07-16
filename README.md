@@ -92,8 +92,8 @@
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/af82dfde-007c-42e4-ba8c-84c29caeea51">
 
 <details>
-<p align="center">
 <summary> 시티투어 부산(그린/레드) 게임 이미지 </summary>
+<p align="center">
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/05039c53-4155-4734-870a-e9fed2e986a4" width="600" height="300">
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/02f7c266-812f-48c8-a5ad-8cf8458e06c0" width="600" height="300">
 <img src="https://github.com/JISUSAMA/UnityStudy/assets/38304918/32d650e9-580d-4adf-b84d-967fe733af64" width="600" height="300">
