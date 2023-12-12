@@ -23,7 +23,7 @@
 </p>
 </details>
 
-[ 보자마자 Play2 Github 소스코드](https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/Mobile ,"소스코드") 
+[ 보자마자 Play2 Github 소스코드](https://github.com/JISUSAMA/GatewaysProject/tree/main/BojamajaPlay2/Mobile, "소스코드") 
 
 <!-- 보자마자 Play2 리얼모션 -->
 ## 보자마자 Play2 리얼모션 2021.06~2021.08(3개월)
