@@ -102,7 +102,6 @@
 </details>
 <br>
 
-[복둥이의 시간여행 Github 소스코드](https://github.com/JISUSAMA/GatewaysProject/tree/main/CITY_TURE_BUSAN, "소스코드") 
 
 <!-- 복천 박물관  -->
 <!-- 2021.09 ~ 2021.12.10 -->
